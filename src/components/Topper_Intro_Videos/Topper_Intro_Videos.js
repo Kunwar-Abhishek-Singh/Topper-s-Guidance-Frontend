@@ -2,6 +2,7 @@ import React from 'react';
 import classes from "./Topper_Intro_Videos.module.css";
 import NewsArticles from '../News_Articles/News_Articles';
 import ToppersPlanStrategy from '../Toppers_Plan_Strategy/Toppers_Plan_Strategy';
+import video_img from "../../images/video.svg";
 
 const Topper_Intro_Videos = () => {
     return (
@@ -15,7 +16,7 @@ const Topper_Intro_Videos = () => {
                         <div className={classes.intro_detail_card}>
                             <div>
                                 <div className={classes.intro_video_section_icon}>
-                                    <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                    <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div> 
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p>
@@ -26,7 +27,7 @@ const Topper_Intro_Videos = () => {
 
                             <div>  
                                 <div className={classes.intro_video_section_icon}>
-                                    <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                    <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div>
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p>
@@ -37,7 +38,7 @@ const Topper_Intro_Videos = () => {
 
                             <div>
                                 <div className={classes.intro_video_section_icon}>
-                                  <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                  <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div>
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p>
@@ -48,7 +49,7 @@ const Topper_Intro_Videos = () => {
 
                             <div>
                                 <div className={classes.intro_video_section_icon}>
-                                    <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                    <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div>
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p>
@@ -59,7 +60,7 @@ const Topper_Intro_Videos = () => {
 
                             <div>
                                 <div className={classes.intro_video_section_icon}>
-                                    <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                    <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div>
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p>
@@ -70,7 +71,7 @@ const Topper_Intro_Videos = () => {
 
                             <div>
                                 <div className={classes.intro_video_section_icon}>
-                                    <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                    <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div>
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p> 
@@ -81,7 +82,7 @@ const Topper_Intro_Videos = () => {
 
                             <div>
                                 <div className={classes.intro_video_section_icon}>
-                                    <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                    <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div>
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p>
@@ -92,7 +93,7 @@ const Topper_Intro_Videos = () => {
 
                             <div>
                                 <div className={classes.intro_video_section_icon}>
-                                    <img src='./images/video.svg' alt='video_icon' className={classes.intro_video_icon}></img>
+                                    <img src={video_img} alt='video_icon' className={classes.intro_video_icon}></img>
                                 </div>
                                 <div className={classes.intro_video_detail}>
                                     <p>Xyz (name)</p>

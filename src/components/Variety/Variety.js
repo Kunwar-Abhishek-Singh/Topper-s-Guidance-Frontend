@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import classes from "./Variety.module.css";
 import { useParams } from 'react-router-dom';
 import { exam_held_under } from '../../API/Apicall';
+import ssc_img from "../../images/ssc img.svg";
+import railway_img from "../../images/indian-railways_exam.png";
 const Variety = (props) => {
     const {exam_selection} = useParams();
     
@@ -29,7 +31,7 @@ const Variety = (props) => {
                 <div className={classes.exams_variety_names} key={index}>
                  {examName.Exams_held_under && examName.Exams_held_under.map((exam,index) => (
                     <div className={classes.variety_details} key={index}>
-                        <img src={exam.img_src} alt='ssc_icon' className={classes.ssc_variety_icon}></img>
+                        <img src={exam_selection==="SSC" ? ssc_img : railway_img} alt='ssc_icon' className={classes.ssc_variety_icon}></img>
                         <p>{exam.exam}</p> 
                         
                         

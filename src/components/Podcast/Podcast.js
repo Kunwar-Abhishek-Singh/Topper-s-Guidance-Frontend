@@ -1,5 +1,8 @@
 import React from "react";
 import classes from "./Podcast.module.css";
+import blog_img from "../../images/blog.svg";
+import video_img from "../../images/video.svg";
+import podcast_img from "../../images/podcast.svg";
 function Podcast() {
     return (
         <>
@@ -10,15 +13,15 @@ function Podcast() {
                 </div>
                 <div className={classes.card_podcast}>
                     <div className={classes.pod_img}>
-                        <img src="./images/blog.svg" alt="blog_img"></img>
+                        <img src={blog_img} alt="blog_img"></img>
                         <div className={classes.content_name}><p>BLOGS</p></div>
                     </div>
                     <div className={classes.pod_img}>
-                        <img src="./images/video.svg" alt="video_img"></img>
+                        <img src={video_img} alt="video_img"></img>
                         <div className={classes.content_name}><p>VIDEOS</p></div>
                     </div>
                     <div className={classes.pod_img}>
-                        <img src="./images/podcast.svg" alt="podcasts_img"></img>
+                        <img src={podcast_img} alt="podcasts_img"></img>
                         <div className={classes.content_name}><p>PODCASTS</p></div>
                     </div>
                 </div>

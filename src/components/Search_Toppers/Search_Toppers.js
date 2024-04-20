@@ -5,6 +5,7 @@ import ToppersList from "../Toppers_List/Toppers_List";
 import { alltoppers } from "../../API/Apicall";
 import { useParams } from "react-router-dom";
 import { Cookies } from "react-cookie";
+import search_img from "../../images/search.png"
 // import { useParams } from "react-router-dom";
 function Search_Toppers() {
     const {exam_selection} = useParams();
@@ -33,7 +34,7 @@ function Search_Toppers() {
                 </div>
                 <div className={classes.toppers_search_bar}>
                     <div>
-                        <img src="./images/search.png" className={classes.search_img} alt="search_img"></img>
+                        <img src={search_img} className={classes.search_img} alt="search_img"></img>
                     </div>  
                     <div className={classes.topper_search_input}>
                         <input type="search" placeholder="Search any Toppers or Exams" onChange={(e)=> setSearch(e.target.value)} className={classes.topper_search}></input>

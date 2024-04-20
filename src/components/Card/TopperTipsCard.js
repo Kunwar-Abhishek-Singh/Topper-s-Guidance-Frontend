@@ -3,6 +3,7 @@ import classes from "./TopperTipsCard.module.css";
 import { useContext } from 'react';
 import { cookie_validation_context } from '../Context_Component/Context';
 import { useNavigate } from 'react-router-dom';
+import user_img from '../../images/user.svg';
 const TopperTipsCard = (props) => {
     const data = useContext(cookie_validation_context)
     const Navigate = useNavigate();
@@ -20,7 +21,7 @@ const TopperTipsCard = (props) => {
             <div className={classes.toppers_tips_card_boundary}>
                 <div className={classes.upper_card}>
                     <div>
-                        <img src="./images/user.svg" alt="user_icon"></img>
+                        <img src={user_img} alt="user_icon"></img>
                     </div>
                     <div><p>{props.name}</p></div>
                     <div><p>{props.exam}</p></div>
