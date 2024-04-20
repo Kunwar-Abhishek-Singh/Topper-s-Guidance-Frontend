@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 // import { Link } from "react-router-dom";
 import classes from "./Carousel.module.css";
 import carousel_03 from "../../images/carousel_03.png";
-// import carousel_04 from "../../images/carousel_04.jpg";
+import carousel_04 from "../../images/carousel_04.jpg";
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -47,7 +47,7 @@ function Carousel1() {
                         <button className={classes.btn}> Click here for the Stretegy !</button>
                     </div>  
                     <div>    
-                        <img src={carousel_03} alt="vector_img" className={classes.carou_img}></img>
+                        <img src={carousel_04} alt="vector_img" className={classes.carou_img}></img>
                     </div>
                 </div>
             </Carousel>
