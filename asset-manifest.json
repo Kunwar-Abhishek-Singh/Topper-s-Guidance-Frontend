@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Topper-s-Guidance-Frontend/static/css/main.3cc17837.css",
-    "main.js": "/Topper-s-Guidance-Frontend/static/js/main.b664c2e5.js",
+    "main.js": "/Topper-s-Guidance-Frontend/static/js/main.e52f542f.js",
     "static/js/826.505952d2.chunk.js": "/Topper-s-Guidance-Frontend/static/js/826.505952d2.chunk.js",
     "static/media/ssc img.svg": "/Topper-s-Guidance-Frontend/static/media/ssc img.4b0ee7d498e36109ce4c7357d0a021bf.svg",
     "static/media/carousel_04.jpg": "/Topper-s-Guidance-Frontend/static/media/carousel_04.59c1ac515565a5b03b5e.jpg",
@@ -38,11 +38,11 @@
     "static/media/revicons.woff": "/Topper-s-Guidance-Frontend/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Topper-s-Guidance-Frontend/index.html",
     "main.3cc17837.css.map": "/Topper-s-Guidance-Frontend/static/css/main.3cc17837.css.map",
-    "main.b664c2e5.js.map": "/Topper-s-Guidance-Frontend/static/js/main.b664c2e5.js.map",
+    "main.e52f542f.js.map": "/Topper-s-Guidance-Frontend/static/js/main.e52f542f.js.map",
     "826.505952d2.chunk.js.map": "/Topper-s-Guidance-Frontend/static/js/826.505952d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cc17837.css",
-    "static/js/main.b664c2e5.js"
+    "static/js/main.e52f542f.js"
   ]
 }
