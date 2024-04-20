@@ -53,7 +53,7 @@ const Header = () => {
       setCookieAuthentication(true);
       setData(true);
     } else {
-      alert("invalid cookies found !!!!");
+      // alert("invalid cookies found !!!!");
       setCookieAuthentication(false);
       removeCookie("jwtoken");
     }

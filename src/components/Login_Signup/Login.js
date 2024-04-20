@@ -43,7 +43,7 @@ const Login = () => {
 
     useEffect(() => {
         if (cookieAuthentication) {
-            navigate('/')
+            navigate('/Topper-s-Guidance-Frontend/')
         }
     }, [cookie_jwt_Authentication])
 
@@ -85,7 +85,7 @@ const Login = () => {
                 navigate(location.state.nextUrl)
             }
             else {
-                navigate("/")
+                navigate("/Topper-s-Guidance-Frontend/")
             }
         }
         else {

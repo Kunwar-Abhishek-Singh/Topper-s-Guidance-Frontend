@@ -93,7 +93,7 @@ function App() {
         <Routes>
           <Route path='/Topper-s-Guidance-Frontend/' element={<FirstPage />} />
           {/* <Route path='/signup' element={<Signup_login_page/>}/> */}
-          <Route path='/:exam_selection' element={<SecondPage />} />
+          <Route path='/Topper-s-Guidance-Frontend/:exam_selection' element={<SecondPage />} />
           <Route path='/login' element={<LoginPage />} />
           <Route path='/signup' element={<SignupPage />} />
           <Route exact path='/signup/:email' element={<RegistrationOtppage />} />
