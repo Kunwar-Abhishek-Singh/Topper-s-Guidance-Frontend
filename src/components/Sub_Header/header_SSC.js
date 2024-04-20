@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react';
 import classes from "./header_SSC.module.css";
 import { useParams } from 'react-router-dom';
 import { subheader } from '../../API/Apicall';
-import ssc_img from "../../images/ssc img.svg";
+import ssc_img from "../../images/ssclogo.png";
 import railway_img from "../../images/indian-railways_exam.png";
 function HeaderSSC(props) {
   const {exam_selection} = useParams();
