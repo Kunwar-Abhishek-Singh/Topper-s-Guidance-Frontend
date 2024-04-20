@@ -33,7 +33,7 @@ const Header = () => {
     setIsLogout(true);
     setData(false);
     console.log("removing jwtoken from the cookies");
-    removeCookie("jwtoken");
+    removeCookie("jwtoken",{ path: '/' });
     console.log(
       "start processing for log out and switching the page for login finally"
     );
@@ -55,7 +55,7 @@ const Header = () => {
     } else {
       // alert("invalid cookies found !!!!");
       setCookieAuthentication(false);
-      removeCookie("jwtoken");
+      removeCookie("jwtoken",{ path: '/' });
     }
   };
   useEffect(() => {
