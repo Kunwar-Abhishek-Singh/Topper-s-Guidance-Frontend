@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Topper-s-Guidance-Frontend/static/css/main.3cc17837.css",
-    "main.js": "/Topper-s-Guidance-Frontend/static/js/main.7de44ceb.js",
+    "main.js": "/Topper-s-Guidance-Frontend/static/js/main.7d32677c.js",
     "static/js/826.505952d2.chunk.js": "/Topper-s-Guidance-Frontend/static/js/826.505952d2.chunk.js",
     "static/media/ssc img.svg": "/Topper-s-Guidance-Frontend/static/media/ssc img.4b0ee7d498e36109ce4c7357d0a021bf.svg",
+    "static/media/carousel_04.jpg": "/Topper-s-Guidance-Frontend/static/media/carousel_04.59c1ac515565a5b03b5e.jpg",
     "static/media/road.jpg": "/Topper-s-Guidance-Frontend/static/media/road.6c44431cf5c9ed3873f1.jpg",
     "static/media/login_vector.svg": "/Topper-s-Guidance-Frontend/static/media/login_vector.21f96fee280fc53f77d904590409be85.svg",
     "static/media/ssc_english_book_img.svg": "/Topper-s-Guidance-Frontend/static/media/ssc_english_book_img.b6bca119bebfccf703b6c95c0f807f58.svg",
@@ -37,11 +38,11 @@
     "static/media/revicons.woff": "/Topper-s-Guidance-Frontend/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Topper-s-Guidance-Frontend/index.html",
     "main.3cc17837.css.map": "/Topper-s-Guidance-Frontend/static/css/main.3cc17837.css.map",
-    "main.7de44ceb.js.map": "/Topper-s-Guidance-Frontend/static/js/main.7de44ceb.js.map",
+    "main.7d32677c.js.map": "/Topper-s-Guidance-Frontend/static/js/main.7d32677c.js.map",
     "826.505952d2.chunk.js.map": "/Topper-s-Guidance-Frontend/static/js/826.505952d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cc17837.css",
-    "static/js/main.7de44ceb.js"
+    "static/js/main.7d32677c.js"
   ]
 }
