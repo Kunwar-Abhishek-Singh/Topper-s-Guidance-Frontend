@@ -1,0 +1,17 @@
+.webinar_card{
+    min-width: 84rem;
+    width: 100%;
+}
+
+.webinar_heading h2{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+    margin-left: 20px;
+}
+
+
+

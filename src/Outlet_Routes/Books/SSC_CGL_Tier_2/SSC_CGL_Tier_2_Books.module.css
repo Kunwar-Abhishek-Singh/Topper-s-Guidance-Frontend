@@ -1,0 +1,29 @@
+
+.book_heading h4{
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 2rem;
+
+}
+.books_main_card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.book_card{
+    margin-left: 30px;
+    width: 125px;
+}
+.ssc_book_img img{
+    width: 125px;
+    margin-top: 20px;
+
+}
+.book_information{
+    
+    text-align: center;
+    /* margin-top: -15px; */
+}
+.book_information p{
+    font-size: 12px;
+}

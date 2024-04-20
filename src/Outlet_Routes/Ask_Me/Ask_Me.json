@@ -1,0 +1,151 @@
+[
+    {
+        "value": "Select State",
+        "state": "Select State"
+    },
+    {
+        "value": "Andhra Pradesh",
+        "state": "Andhra Pradesh"
+    },
+    {
+        "value": "Arunachal Pradesh",
+        "state": "Arunachal Pradesh"
+    },
+    {
+        "value": "Assam",
+        "state": "Assam"
+    },
+    {
+        "value": "Bihar",
+        "state": "Bihar"
+    },
+    {
+        "value": "Chhattisgarh",
+        "state": "Chhattisgarh"
+    },
+    {
+        "value": "Goa",
+        "state": "Goa"
+    },
+    {
+        "value": "Gujarat",
+        "state": "Gujarat"
+    },
+    {
+        "value": "Haryana",
+        "state": "Haryana"
+    },
+    {
+        "value": "Himachal Pradesh",
+        "state": "Himachal Pradesh"
+    },
+    {
+        "value": "Jharkhand",
+        "state": "Jharkhand"
+    },
+    {
+        "value": "Karnataka",
+        "state": "Karnataka"
+    },
+    {
+        "value": "Kerala",
+        "state": "Kerala"
+    },
+    {
+        "value": "Madhya Pradesh",
+        "state": "Madhya Pradesh"
+    },
+    {
+        "value": "Maharashtra",
+        "state": "Maharashtra"
+    },
+    {
+        "value": "Manipur",
+        "state": "Manipur"
+    },
+    {
+        "value": "Meghalaya",
+        "state" : "Meghalaya"
+    },
+    {
+        "value" : "Mizoram",
+        "state" : "Mizoram"
+    },
+    {
+        "value" : "Nagaland",
+        "state" : "Nagaland"
+    },
+    {
+        "value" : "Odisha",
+        "state" : "Odisha"
+    },
+    {
+        "value" : "Punjab",
+        "state" : "Punjab"
+    },
+    {
+        "value" : "Rajasthan",
+        "state" : "Rajasthan"
+    },
+    {
+        "value" : "Sikkim",
+        "state" : "Sikkim"
+    },
+    {
+        "value" : "Tamil Nadu",
+        "state" : "Tamil Nadu"
+    },
+    {
+        "value" : "Telangana",
+        "state" : "Telangana"
+    },
+    {
+        "value" : "Tripura",
+        "state" : "Tripura"
+    },
+    {
+        "value" : "Uttarakhand",
+        "state" : "Uttarakhand"
+    },
+    {
+        "value" : "Uttar Pradesh",
+        "state" : "Uttar Pradesh"
+    },
+    {
+        "value" : "West Bengal",
+        "state" : "West Bengal"
+    },  
+    {
+        "value": "Andaman and Nicobar (U&T)",
+        "state": "Andaman & Nicobar (U&T)"
+    },
+    {
+        "value": "Daman & Diu (U&T)",
+        "state" : "Daman & Diu (U&T)"
+    },
+    {
+        "value": "Jammu & Kashmir (U&T)",
+        "state": "Jammu & Kashmir (U&T)"
+    },
+    {
+        "value": "Lakshadweep (U&T)",
+        "state": "Lakshadweep (U&T)"
+    },
+    {
+        "value": "Chandigarh (U&T)",
+        "state" : "Chandigarh (U&T)"
+    },
+    {
+        "value": "NCT of Delhi (U&T)",
+        "state": "NCT of Delhi (U&T)"
+    },
+    {
+        "value": "Ladakh (U&T)",
+        "state": "Ladakh (U&T)"
+    },
+    {
+        "value": "Puducherry (U&T)",
+        "state": "Puducherry (U&T)"
+    }
+
+]

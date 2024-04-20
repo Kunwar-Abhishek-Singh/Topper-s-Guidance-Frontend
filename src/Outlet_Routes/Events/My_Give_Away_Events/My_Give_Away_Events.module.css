@@ -1,0 +1,78 @@
+
+.all_event_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 15px;
+    margin: 0 0 0 10px;
+    background-color: #e2e2e2;
+}
+.event_card_div{
+    background-color: #fff;
+}
+.card_event_img{
+    width: 352px;
+    height: 200px;
+}
+.event_dates{
+    margin: 6px 0 0 8px;
+}
+.event_dates p{
+    color: #1877F2;
+    font-size: 13px;
+    font-weight: lighter;    
+}
+.event_topic_div{
+    margin: 8px 0 0 8px;
+}
+.event_topic_div h2{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+}
+.event_location_div{
+    margin: 8px 0 0 8px;
+}
+.event_location_div p{
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: #1877F2;
+}
+
+.down_div{
+    position: relative;
+    display: flex;
+    height: 95px;
+    margin-top: 20px;
+}
+.down_div::before{
+    content: "";
+    position: relative;
+    height: 7px;
+    width: 344px;
+    background-color: #1877F2;
+    display: block;
+    border-radius: 5px;
+    margin: 4px;
+}
+.event_eventGoals_div{
+    position: absolute;
+    margin-top: 20px;
+}
+.event_eventGoals_div p{
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 8px 0 0 8px;
+}
+.events_ticketSold_div {
+    position: absolute;
+    right: 1px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+.events_ticketSold_div p{
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 8px 0 0 8px;
+}

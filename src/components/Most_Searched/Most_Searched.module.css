@@ -1,0 +1,41 @@
+.exams_name .exams{
+    margin-left: 40px;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+    margin-left: 5rem;
+    line-height: 33px;
+    color: #3578E5;
+    letter-spacing: 1px;
+}
+.most_searched_toppers_heading{
+    width: 100%;
+    min-width: 84rem;
+}
+.most_searched_toppers_heading>h2{
+    margin-left: 4.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+    padding: 10px;
+    color: #000;
+    line-height: 33px;
+}
+.exams_name{
+    margin-bottom: 20px;
+}
+.exam_toppers_list{
+   /* width: 84rem; */
+   /* min-width: 84rem; */
+   margin-left: -20px;
+
+}
+
+
+
+
+

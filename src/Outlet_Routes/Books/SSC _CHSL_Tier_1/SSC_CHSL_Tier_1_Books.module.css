@@ -1,0 +1,105 @@
+.Ebook_head{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.5rem;
+}
+.ebook_heading{
+    background: whitesmoke;
+    color: #000;
+    padding: 1rem 0 1rem 1.5rem;
+    /* margin-top:0.8rem; */
+    /* margin-left: 1rem; */
+}
+.ebook_heading h1{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.2rem 0 0 0.8rem;
+}
+.main_card_item{
+    list-style: none;
+}
+
+
+/* ---- digital book data css ------------  */
+
+.full_card_ebook{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 0 0.6rem 0;
+}
+.eBook_img{
+    background: #fff;
+}
+.eBook_title{
+    background: #F0F2F2;
+    padding: 0.4rem;
+}
+.eBook_title h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #0F1111; 
+    cursor: pointer;
+}
+.heading_title:hover{
+    color: #C7511F;
+}
+.kindle_link{
+    color:#007185;
+    cursor: pointer;
+}
+.kindle_link a{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.kindle_link:hover{
+    color: #C7511F;
+}
+.author_title{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: #0F1111;
+}
+.medium{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: #0F1111;
+}
+.eBook_title p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: #0F1111;
+}
+.rs_icon sub{
+    font-size: large;
+}
+.rs_icon.price_cut{
+    font-size: 8px;
+
+}
+
+/* ---------- right side bar css -------- */
+
+.right_sidebar{
+    background: whitesmoke; 
+}
+.item_main_card h4{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    padding: 0.4rem 0 0 0.4rem;
+}
+.side_cards_item{
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 0.6rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: #000;
+    cursor: pointer;
+}
+
+

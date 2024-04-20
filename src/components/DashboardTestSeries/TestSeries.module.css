@@ -1,0 +1,91 @@
+.heading_testSeries{
+    width: 100%;
+    min-width: 84rem;
+}
+.full_card3{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.heading_title{   
+    height: 280px;
+    color: #212529;
+    margin-top: 20px;
+}
+.topper_heading{
+    display: flex;
+    gap: 38rem;
+}
+.right_site_div h1{
+    color: #587BE4;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.topper_heading h1{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.book_taxt{
+    margin: 0 0 0 11px;                                       
+}
+.test_cards{  
+    cursor: pointer;
+}  
+.test_cards_img{
+    width: 206px;
+    height: 176px;
+    border: 1px solid #e2e2e2;
+}             
+.test_image{
+    width: 170px;
+    height: 165px;
+    padding-left: 26px;
+}
+/* .test_image:hover{
+    width: 195px;
+    height: 152px;
+    cursor: pointer;
+} */
+.test_cards h2{   
+    width: 218px;  
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+    padding: 3px;
+    color: #212529;
+    padding-left: 4px;
+    font-variant: petite-caps;
+    line-height: 25px;
+}  
+.test_type{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+}     
+.price{
+    font-size: 14px;
+    color: rgb(35, 87, 42);
+    text-align: center;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+}
+.test_cards p{    
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+    padding: 1px;
+    color: #212529;
+    padding-left: 4px;
+    font-variant: petite-caps;
+}
+
+/* ---------- fall css ---------- */
+.TestSeries_test_cards__LnlKs{
+    text-align: start;
+    margin: 0 0 0 11px;
+}

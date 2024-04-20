@@ -1,0 +1,30 @@
+.blog_carou_img{
+    width: 10rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.blog_item{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 13rem;
+    height: 16rem;
+    /* margin-left: 1rem; */
+    padding: 0.5em;
+    text-align: center;
+    
+}
+.blog_item_text{
+    font-size: 0.6rem;
+    margin-top: 10px;
+}
+.blog_item_text p{
+    margin-top: 10px;
+}
+.blog_item_text h4{
+    color: orangered;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.blog_item_text h4:hover{
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.banking_mainCards{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.1rem;
+    background: #e2e2e2;
+}
+.bank_test_cars_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:0.4rem;
+    padding: 0.2rem;
+}
+.bank_heading{
+    height: 3rem;
+    margin-top: 1.5rem;    
+}
+.bank_heading h2{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    
+}
+.banking_cards{
+    background: #fff;
+    color: #000;
+}
+.banking_cards img{
+    height: 4rem;
+    width: 5rem;
+}
+.card_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banking_cards h3{
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-feature-settings: "pcap";
+    font-variant: petite-caps;
+    margin-left: 1rem;
+}
+.c li{
+    list-style-type: disc;
+    margin-left: 2.2rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.view_testBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-variant: petite-caps;
+}
+.view_testBtn button{
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 4px 10px 4px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+    color: #000000;
+    background: #eceb98;
+    font-variant: petite-caps;
+}
+
+.bank_test_right_sidebar{
+    background-color: #fff;
+    padding: 0px 0px 0px 16px;
+}
+.bank_test_right_side_carditem{
+    list-style: none;
+}
+.rightsidebar_heading{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0px 0px 4px 0px;
+}
+.bank_test_right_side_carditem p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    
+}
+.bank_test_right_side_carditem p:hover{
+    color: #C7511F;
+    background: papayawhip;
+    cursor: pointer;
+}

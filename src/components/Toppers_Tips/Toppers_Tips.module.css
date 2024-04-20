@@ -1,0 +1,28 @@
+
+.toppers_tips_header{
+    
+    /* margin-top: 110px; */
+}
+.toppers_tips_main_div{
+
+    width: 100%;
+    min-width: 84rem;
+}
+.toppers_tips_header h2{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+.tips_card{
+    /* margin-left: 50px; */
+    /* width: 100%;
+    min-width: 84rem; */
+}
+
+
+
+

@@ -1,0 +1,46 @@
+.variety_main_div{
+    width: 82rem;
+}
+.at_a_glance{
+    display: flex;
+    justify-content: center;
+    
+}  
+.at_a_glance h2{
+    margin-top: 1px;
+    font-size: 20px;
+    font-variant: petite-caps;
+    letter-spacing: 1px;
+    line-height: 55px;
+    font-weight: lighter;
+    color: #1877F2;
+}
+.variety_heading h2{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+.ssc_variety_icon{
+    width: 100px;
+}
+.exams_variety_names{
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    display: grid;
+    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-columns: repeat(8,1fr);
+}
+.variety_details{
+    text-align: center;
+}
+.variety_details p{
+    margin-top: -3px;
+    font-size: 12px;
+    font-weight: 100;
+    
+}

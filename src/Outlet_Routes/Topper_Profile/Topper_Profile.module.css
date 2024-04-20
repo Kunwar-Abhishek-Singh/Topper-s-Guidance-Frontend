@@ -1,0 +1,122 @@
+.main_cards{
+    /* background-color: antiquewhite;   */
+    margin: 20px;
+    margin-left: 130px;
+    margin-top: 50px;
+    padding: 8px;
+}
+.card_item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.expert_img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* margin-left: -50px; */
+}
+.expert_img{
+    text-align: center;
+    width: 300px;
+    margin-left: -50px;
+    /* transition: 300ms; */
+    
+}
+.expert_img img:hover{
+    height: 200px;
+    width: 300px;
+    /* transform: translate(-50% -50%); */
+    border-radius: 0%;
+    transition: 300ms;
+    
+    
+}
+
+.profile_topperName{
+    /* margin-top: 20px; */
+    margin-left: 50px;
+    width: 400px;
+}
+table .tr_data .td_data{
+    border: none;
+    width: 200px;
+    font-size: 15px;
+    height: 40px;
+    /* text-align: center; */
+
+}
+td:nth-child(2){
+    width: 80px;
+}
+
+.profile_topperName h2{
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    line-height: 33px;
+}
+.profile_topperName h3{
+    font-size: 15px;
+    color: #000;
+    font-variant-caps: petite-caps;
+    font-weight: lighter;
+    line-height: 33px;
+}
+.profile_topperName p{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 33px;
+}
+.credential_items{
+    margin-top: 40px;
+    text-align: center;
+}
+.credential_items img{
+    width: 300px;
+}
+.credential_items img:hover{
+    width: 320px;
+    transition: 300ms;
+    cursor: pointer;
+    color: rgba(0,0,0,0.5);
+}
+.credential_items h2{
+    margin-bottom: 30px;
+}
+.double_tick_verification{
+    font-size: 12px;
+    margin-left: 500px;
+    display: flex;
+    gap: 10px;
+}
+.double_tick_verification img{
+    width: 30px;
+    
+}
+.scorecard_big_img{
+    position: fixed;
+    top: 90px;
+    left: 270px;
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+}
+.big_card_div{
+    overflow-y: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    /* background: black; */
+    /* color: pink; */
+
+}
+.big_screen_cancel_button{
+    z-index: 3;
+    position: fixed;
+    top: 90px;
+    left: 1000px;
+}

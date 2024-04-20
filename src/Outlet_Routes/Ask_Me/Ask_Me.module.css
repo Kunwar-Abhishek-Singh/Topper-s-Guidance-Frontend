@@ -1,0 +1,68 @@
+.ask_me_main_panel{
+    margin: 0px 250px;
+}
+.ask_me_heading{
+    margin-left: 10rem;
+    margin-bottom: 30px;
+    
+}
+label{
+    /* margin-left: -40px; */
+    /* border: 1px solid black;
+    padding-right:100px ; */
+    padding: 10px;
+    
+    font-size: 14px;
+    font-weight: 100;
+
+    
+    
+}
+.label_section_div{
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    border-style: ridge;
+    padding: 5px;
+    margin-left: -50px;
+    
+    
+}
+select{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    padding: 0px 20rem 0px 0px;
+}
+.ask_me_input{   
+    border: none;
+    outline: none;
+    width: 40em;
+}
+textarea{
+    padding: 0px 35px 0px 5px ;
+    width: 600px;
+    height: 13vh;
+    resize: none;
+    outline: none;
+    border: none;
+}
+.submit_btn_ask_me{
+    margin-left: 200px;
+    
+}
+.submit_btn_div{
+    margin-left: 15rem;    
+}
+.submit_btn_div button{
+    border: none;
+    border-style: ridge;
+    padding: 0.3rem;
+}
+.error{
+    color: red;
+    font-size: 13px;
+    margin-top: -15px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+

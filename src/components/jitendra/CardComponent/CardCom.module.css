@@ -1,0 +1,56 @@
+.cardcom_top{
+    /* float: left;
+    width: 100%; */
+    /* margin-top: 130px; */
+    width: 80vw;
+}
+/* .cardcom_head{
+    margin-left: 60px;
+} */
+.cardcom_head>h1{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+.card_model{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 3px 0 0 150px;
+
+}
+.full_card{
+    height: 100px;
+    width: 330px;
+    border-style: ridge;
+    margin: 10px;
+}
+.card_hd>h2{
+    letter-spacing: 0.8px;
+    line-height: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px 0px 20px;
+}
+.card_para>p{
+    font-size: 11px;
+    font-weight: 400;
+    margin: 10px;
+    line-height: 5px;
+    /* letter-spacing: 0.8px; */
+}
+.web_viewbtn_card {
+    float: left;
+    width: 20%;
+  }
+  .web_viewbtn_card>button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 70px -150px 0 100px;
+  }

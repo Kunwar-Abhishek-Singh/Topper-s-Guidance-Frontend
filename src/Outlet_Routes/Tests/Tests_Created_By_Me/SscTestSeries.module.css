@@ -1,0 +1,282 @@
+.main_cards {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0.1rem;
+  background: #e2e2e2;
+}
+
+.sscTest_heading {
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+.sscTest_heading h2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+/* .test_cards {
+      background: #ffffff;
+      color: #000;
+    }
+    .testCard_heading {  
+      font-size: 0.7rem;
+      font-weight: 300;
+      font-variant: petite-caps;
+      line-height: 1;
+      text-align: center;
+      height: 4.5rem;
+    }
+    .testCard_pattern {  
+      text-align: center;
+      font-size: 0.6rem;
+      font-weight: 300;
+      margin-top: -3rem;
+    }
+    .testCard_price {
+      font-size: 0.9rem;
+      text-align: end;
+      color: green;
+      margin-top: 1.3rem;
+      padding: 0.49rem;
+    }
+    .testCard_number {  
+      margin-top: -2.3rem;
+      font-size: 0.9rem;
+      padding: 0.49rem;
+    }
+    .testCard_btn {
+      text-align: center;
+    }
+    .testCard_btn button {
+      background-color: #eceb98;
+      font-size: 0.9rem;
+      font-weight: 500;
+      font-variant: petite-caps;
+      text-align: center;
+      padding: 4px 10px 4px 10px;
+      border: none;
+      cursor: pointer;
+      margin: 1rem;
+      color: #000000;
+    }
+    .testCard_btn button:hover {
+      background-color: #eceb98;
+      color: #000;
+    }
+     */
+
+/* -------------- ssc mock test css ------------------  */
+
+/* .ssc_test_card_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0 0 0.6rem 0;
+  } */
+.mockTest_mainCard {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0.1rem;
+  background: #e2e2e2;
+}
+.ssc_test_card_item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+  padding: 0.2rem;
+  background: #e2e2e2;
+}
+.ssc_mock_card_item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+  padding: 0.2rem;
+  background: #e2e2e2;
+}
+.mockTest_card {
+  background: #fff;
+  color: #000;
+}
+.sscMock_heading {
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+.sscMock_heading h2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.top_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ssc_img {
+  height: 4rem;
+  width: 6rem;
+}
+.mockTest_card h3 {
+  text-align: start;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 16px;
+}
+.main_ulDiv {
+  margin-left: 36px;
+}
+.total_no {
+  font-size: 0.8rem;
+  font-weight: 400;
+  list-style-type: disc;
+}
+.medium {
+  font-size: 0.8rem;
+  font-weight: 400;
+  list-style-type: disc;
+}
+.type_one {
+  font-size: 0.8rem;
+  font-weight: 400;
+  list-style-type: disc;
+}
+.type_two {
+  font-size: 0.8rem;
+  font-weight: 400;
+  list-style-type: disc;
+}
+.type_three {
+  font-size: 0.8rem;
+  font-weight: 400;
+  list-style-type: disc;
+}
+.type_four {
+  font-size: 0.8rem;
+  font-weight: 400;
+  list-style-type: disc;
+}
+.button_more {
+  position: relative;
+  top: 19px;
+  margin: 0 0 0 33px;
+}
+.view_btn {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  background: #0866ff;
+  color: #fff;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border: none;
+  font-variant: petite-caps;
+  cursor: pointer;
+  margin: 10px;
+  height: 34px;
+  width: 98px;  
+}
+.buy_btn_test_portal{
+  position: relative;
+  float: right;
+  top: -25px;
+  margin: 0 60px 0 0;
+}
+
+.buy_btn_test{
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  background: #0866ff;
+  color: #fff;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border: none;
+  font-variant: petite-caps;
+  cursor: pointer;
+  height: 34px;
+  width: 98px;
+}
+.ssc_test_right_sidebar{
+  background-color: #fff;
+  padding: 0px 0px 0px 16px;
+}
+.ssc_test_right_side_carditem{
+  list-style: none;
+}
+
+/* right side bar css -----  */
+
+.ssc_mock_right_sidebar{
+  background-color: #fff;
+  padding: 1rem;
+}
+.ssc_mock_right_side_carditem{
+  list-style: none;
+}
+.righ_side_bar_heading{
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0px 0px 4px 0px;
+}
+.ssc_mock_right_side_carditem p{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.ssc_mock_right_side_carditem p:hover{
+  color: #C7511F;
+  background: #eceb98;
+  cursor: pointer;
+}
+
+/* ssc test series css -------------  */
+
+.ssc_test_rightsidebar_heading{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.ssc_test_right_side_carditem p{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.ssc_test_right_side_carditem p:hover{
+  color: #C7511F;
+  background: #eceb98;
+  cursor: pointer;
+}
+
+/* ----- SSC MOCK TEST SERIES CSS ------------  */
+
+.button_more_div{
+  position: relative;
+  top: 19px;
+  margin: 0 0 0 33px;
+}
+.btn_rupees{
+  height: 34px;
+  width: 98px;
+  background: #0866ff;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  text-align: center;
+  font-variant: petite-caps;
+  cursor: pointer;
+}
+.buy_now_div{
+  position: relative;
+  top: -14px;
+  margin: 0 60px 0 0;
+  float: right;
+}
+.buy_now_btn{
+  height: 34px;
+  width: 98px;
+  background: #0866ff;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  text-align: center;
+  font-variant: petite-caps;
+  cursor: pointer;
+}

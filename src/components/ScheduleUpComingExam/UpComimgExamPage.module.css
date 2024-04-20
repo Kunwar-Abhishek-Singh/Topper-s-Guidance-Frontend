@@ -1,0 +1,63 @@
+.upcoming_exam{
+    display: block;
+}
+.upcoming_exam h2{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    word-spacing: 0.5em;
+    font-weight: 600;
+    padding: 0.5em;
+}
+.secondtop_para h4{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.3em 0.5em;
+}
+.content p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0.3em 0.5em 0.8em 0.5em;
+}
+.content img{
+    width: 60rem;
+    height: 25rem;
+}
+.current_affair h4{
+    font-size: 16px;
+    font-weight: 600;    
+    padding: 0.5em;
+    cursor: pointer;
+}
+.upcoming_table{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: fit-content;
+    border-style: ridge;    
+}
+.table1{
+    border-style: ridge;
+}
+.table2{
+    border-style: ridge;
+}
+.table3{
+    border-style: ridge;
+}
+.table4{
+    border-style: ridge;
+}
+.table5{
+    border-style: ridge;
+}
+.table6{
+    border-style: ridge;
+}
+.table7{
+    border-style: ridge;
+}
+
+.dataTable{
+    display: grid;
+    width: 80vw;
+    padding: 1rem;
+}

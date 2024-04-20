@@ -1,0 +1,129 @@
+.abcde{
+    width: 100%;
+    min-width: 84rem;
+}
+.heading_titleabc{    
+    color: #212529;
+}
+.full_bookCard{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.headingxyz h1{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 17px;
+    margin-top: 10px;
+    color: #212529;
+}
+.headingxyz h1:nth-child(2){
+    cursor: pointer;
+    color: red;
+}
+.heading_div{
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    margin-top: 10px;
+}
+.heading_show_all {
+    margin: 0 0 0 25px;
+}
+.heading_show_all h1{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 17px;
+    margin-top: 10px;
+    color: #587BE4;
+}
+.heading_show_all h1:hover{
+    cursor: pointer;
+    color: #587BE4;
+}
+.book_textabc{
+    text-align: center;  
+}
+.book_cardA{
+    width: 220px;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+    /* border: 0.1px solid #e2e2e2; */
+    /* margin-bottom: 30px; */
+    background-color: #fff;
+}
+.books_img_card{
+    border: 1px solid #e2e2e2;
+    /* border-style: ridge; */
+    padding: 10px;
+    width: 201px;
+    /* height: 220px; */
+
+}
+.book_image{
+    width: 142px;
+    /* height: 180px; */
+}
+/* .book_image:hover{
+    width: 185px;
+    height: 182px;
+    cursor: pointer;
+
+} */
+.book_cardA h2{    
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0.4px;
+    padding: 4px;   
+    overflow: hidden;   
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: start;
+    color: #000;
+    line-height: 36px;
+}
+.book_rating p{
+    text-align: start;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-left: 4px;
+    background-color: green;
+    color: #fff;
+    width: 52px;
+    height: 21px;
+}
+.book_rating{
+    padding-left: 4px;
+}
+.book_rating span{
+    position: relative;
+    display: flex;
+    margin-left: 27px;
+    top: -16px; 
+    height: 15px;
+    width: 15px;   
+}
+.book_price{
+    font-size: 14px;
+    color: rgb(35, 87, 42);
+    text-align: center;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;                                   
+}
+/* .book_cardA p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    padding: 1px;
+} */
+.book_card_down{
+    border: 1px solid #e2e2e2;
+    width: 201px;
+    /* height: 95px; */
+}
+/* .book_card_down:hover{
+    border: 1px solid #e2e2e2;
+    width: 210px;
+    height: 95px;
+} */
+

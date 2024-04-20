@@ -1,0 +1,459 @@
+.Ebook_head{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.5rem;
+}
+.ebook_heading{
+    background: #fff;
+    color: #000;
+    padding: 1rem 0 1rem 1.5rem;
+}
+.ebook_heading h1{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.2rem 0 0 0.8rem;
+}
+.main_card_item{
+    list-style: none;
+}
+.full_card_specifiction{
+    padding: 0 0 0 1.2rem;
+    background-color: #fff;
+}
+.heading_title{
+    color: #212121;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: contents;
+}
+.heading_title span{
+    padding: 0;
+    line-height: 1.6;
+    font-size: inherit;
+    font-weight: inherit;
+    display: inline-block;
+    color: #212121;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.rating_card{
+    line-height: 2.6;
+
+}
+.rating_btn{
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 4px 8px 4px 12px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    background-color: #388e3c;
+    border: none;
+    cursor: pointer;
+}
+.price_card h3{
+    font-size: 1.7rem;
+    vertical-align: sub;
+    line-height: 3rem;
+}
+.offer_card p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 2.5rem;
+}
+.bank_offerI{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 2.5rem;
+}
+.bank_offerII{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 2.5rem;
+}
+.partnerOffer_card p{
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+.partner_a p{
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+.abcd{
+    padding: 0 0 0 10px;
+}
+.delivery_a p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    position: relative;
+}
+.delivery_a p::after{
+    content: "";
+    height: 2px;
+    width: 200px;
+    background: #2874f0;
+    position: absolute;
+    top: 30px;
+    right: 330px;
+}
+.location_icon{
+    color: blue;
+    position: relative;
+    top: -0px;
+    cursor: pointer;
+    left: 115px;
+}
+.check_a{
+    position: relative;
+    left: 40px;
+    top: -6px;
+    color: blue;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.delivery_full_card{
+    height: 120px;
+    margin-top: 1rem;
+}
+.delivery_a p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #000;
+}
+.delivery_date p{
+    position: relative;
+    font-size: 0.8rem;
+    left: 190px;
+    line-height: 1.5rem;
+}
+.view_btn p{
+    font-size: 0.8rem;
+    left: 190px;
+    position: relative;
+    color: #2874f0;
+    cursor: pointer;
+}
+.author_downpage p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #000;
+}
+.author_a{
+    font-size: 14px;
+    font-weight: lighter;
+    position: relative;
+    left: 120px;
+    color: #2874f0;
+    cursor: pointer;
+}
+.high_light p{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 4rem;
+    color: #000;
+}
+
+.highlight{
+    position: relative;
+    left: 185px;
+    bottom: 64px;
+}
+.service_a{
+    position: relative;
+    float: right;
+    right: 250px;
+    bottom: 105px;
+}
+.service_a p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.cash_delivery{
+    position: relative;
+    float: right;
+    bottom: 105px;
+    left: 25px;
+}
+.cash_delivery p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.cash_delivery span{
+    color: #2874f0;    
+}
+.number_a{
+    left: 185px;
+    position: relative;
+    bottom: 75px;
+    line-height: 26px;
+}
+.number_a li{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.language_a{
+    position: relative;
+    left: 185px;
+    bottom: 75px;
+    line-height: 26px;
+}
+.language_a li{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.publisher_a{
+    position: relative;
+    left: 185px;
+    bottom: 75px;
+    line-height: 26px;
+}
+.publisher_a li{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.seller_a p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.seller_abc{
+    position: relative;
+    left: 170px;
+    bottom: 73px;
+}
+.seller_abc p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.seller_xyz{
+    height: 100px;
+    line-height: 70px;
+}
+.replacement_xyz{
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+}
+.replacement_xyz li{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #2874f0;
+}
+.description_main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.description_left p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.description_right p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+    text-align: justify;
+}
+.specifications_text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 30px 24px 52px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.41;
+    color: #212121;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* .full_div_specification{
+    border: 1px solid #dddfe2;
+} */
+.spec_book_main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.book_spec_left p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121; 
+    padding: 0 0 0 15px;
+}
+.book_spec_right p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+    text-align: justify;
+}
+.author_spec {
+    position: relative;
+}
+.author_spec p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+    line-height: 75px;
+    padding: 0 0 0 15px;
+}
+.span_auth{
+    position: absolute;
+    left: 143px;    
+}
+.binding_spec{
+    position: relative;
+}
+.binding_spec p{
+    line-height: 75px;
+    font-size: 14px;
+    color: #212121;
+    padding: 0 0 0 15px;
+}
+.binding_span{
+    position: absolute;
+    left: 143px;
+    font-size: 14px;
+    color: #212121;
+}
+.publishing_date_spec{
+    position: relative;
+}
+.publishing_date_spec p{    
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+    padding: 0 0 0 15px;
+}
+.publishing_date_span {
+    position: absolute;
+    font-size: 14px;
+    left: 143px;
+    color: #212121;
+}
+.publishser_spec{
+    position: relative;
+}
+.publishser_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+    padding: 0 0 0 15px;
+}
+.publisher_span{
+    position: absolute;
+    font-size: 14px;
+    left: 143px;
+    color: #212121;
+}
+.exam_spec{
+    position: relative;
+}
+.exam_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+    padding: 0 0 0 15px;
+}
+.exam_spec span{
+    position: absolute;
+    font-size: 14px;
+    left: 143px;
+    color: #212121;
+}
+.number_of_page_spec{
+    position: relative;
+}
+.number_of_page_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+    padding: 0 0 0 15px;
+}
+.number_of_page_spec span{
+    position: absolute;
+    font-size: 14px;
+    left: 143px;
+    color: #212121;
+}
+.language_spec{
+    position: relative;
+}
+.language_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+    padding: 0 0 0 15px;
+}
+.language_spec span{
+    position: absolute;
+    font-size: 14px;
+    left: 143px;
+    color: #212121;
+}
+
+
+
+/* ---------- right side bar css -------- */
+
+.side_cards_item{
+    list-style: none;
+}
+.curser_effect div div:last-child { 
+    left: -150% !important;
+    width: 135% !important;
+    height: 100% !important;    
+}
+.curser_effect div div:nth-last-child(2) div:last-child {
+    background-color: transparent !important;
+}
+.curser_effect{
+    width: 350px;
+    height: 350px;
+}
+
+
+/* ------------- buy and add to card button ---------  */
+
+.buy_add_btn_main_div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.add_to_card_btn1{
+    position: relative;
+    top: 170px;
+    margin: 0px 0 0 16px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background: #fb641b;
+    color: #fff;
+    border: none;   
+}
+.buy_btn_div{
+    position: relative;
+    top: 170px;
+    margin: 0px 0 0 16px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background: #fbec1b;
+    color: #fff;
+    border: none;  
+}
+
+.input_pincode{
+    margin-left: 8rem;
+    /* margin-bottom: 5rem; */
+    border: none;
+    outline: none;
+}

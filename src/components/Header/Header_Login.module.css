@@ -1,0 +1,86 @@
+
+
+.login_header{
+    /* position: fixed; */
+    top: 0;
+    background-color: #587BE4;
+    width: 100%;
+    min-width: 84rem;
+    display: grid;
+    /* grid-template-columns: 20px  3fr 1fr 1fr .25fr .25fr 20px; */
+    grid-template-columns: 5rem 3fr 2fr 5rem;
+    /* height: 10 vh; */
+   
+    
+}
+.login_header_credential_input{
+    margin-left: -30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+/* .header_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.login_header_logo{
+    grid-column: 2/3;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.login_header_logo>img{
+    width: 150px;
+}
+.login_header_input_email{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.login_header_input_email>input{
+    padding: 10px;
+    padding-right: 50px;
+}
+.login_header_input_password{
+    margin-top: 15px; 
+    padding-bottom: 5px;
+     margin-left: 50px;
+}
+.login_header_input_password>input{
+    padding: 10px;
+}
+.login_header_input_password p{
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.login_header_input_password>p:hover{
+    color: white;
+    cursor: pointer;
+}
+.login_header_submit_button{
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.login_header_submit_button>button{
+    font-size: 14px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.home_icon_button_login_header{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.faHomeicon{
+    color: white;
+}
+.faHomeicon:hover{
+    color: black;
+    cursor: pointer;
+}

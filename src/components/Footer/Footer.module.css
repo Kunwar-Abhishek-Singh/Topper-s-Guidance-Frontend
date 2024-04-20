@@ -1,0 +1,68 @@
+.footer_container {
+    margin-top: 40px;
+    /* width: 90rem; */
+    width: 100%;
+    min-width: 84rem;
+    /* width: 1520px; */
+    height: 8rem;
+    background-color: black;
+}
+
+.footer_1st_row {
+    display: grid;
+    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-columns: 5rem repeat(7, 11rem) 5rem; 
+    /* margin-top: 10000px; */
+    /* margin-left: 100px; */
+}
+.first_child{
+    grid-column: 2/3;
+}
+
+.footer_elements {
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+.footer_elements p {
+    color: white;
+    font-size: 13px;
+}
+
+.insta_icon {
+    color: white;
+
+
+    /* margin-left: 270px; */
+}
+
+.insta_icon:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fb_icon {
+    color: white;
+
+    margin-left: 20px;
+}
+
+.fb_icon:hover {
+    color: blue;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.icons_fb_insta {
+    margin-left: 40rem;
+    margin-top: 20px;
+
+}
+
+.get_in_touch {
+    margin-top: 5px;
+    color: white;
+    font-size: 15px;
+}

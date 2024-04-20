@@ -1,0 +1,108 @@
+.Top_Header{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: #e2e2e2;
+    width: 100%;
+    position: fixed ;
+    top: 0;
+    z-index: 1001;
+    cursor: pointer;
+    height: 4.4rem;
+}
+.Top_logo img{
+    height: 2rem;
+    width: 9rem;        
+    padding: 0.3rem 0 0 1rem;
+}
+.header_text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 8px 0 8px;
+}
+.home_text{
+    padding: 1rem 0 0 0;
+}
+.home_text h2{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.categories_text{
+    padding: 1rem 0 0 0.5rem;
+}
+.categories_text h2{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+/* .search_bar_header{
+    margin-left: 1rem;
+} */
+.search_img_header{
+    position: absolute;
+}
+.search_img_header img{
+    height: 1rem;
+    margin: 1.8rem 0 0 0.5rem;
+}
+.top_input_bar input{
+    border: 1px solid #1c1d1f;
+}
+.input_bar_logged_in_header{
+    width: 28rem;
+    margin: 18px 0 0 0;
+    padding: 10px 5px 10px 36px;
+    border-radius: 20px;
+    background-color: #f7f9fa;
+}
+
+/* ------------ mobile app download css header ----  */
+.download_mobileApp{
+    margin-left: 3px;
+}
+
+.mobileApp_text{
+    margin: -1.2rem 0 0 0.2rem;
+}
+.mobileApp_text h2{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.playstore_icon{
+    margin: 0.7rem 0 0 2.2rem;
+    padding: 0.4rem
+}
+
+/* -------- dashboard header sign-up & log in css -----------------  */
+.log_in button{
+    height: 24px;
+    width: 60px;
+}
+.sign_up{
+    height: 24px;
+    width: 60px;
+}
+.sign_up_header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sign_up_header{
+    margin-top: 1.5rem;
+    margin-left: 0.1rem;
+}
+
+/* --------- add to cart header css -------------  */
+
+.add_to_cart{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+/* ------ language icon ------------  */
+.language_icon_header{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+.moreApp_icon{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}

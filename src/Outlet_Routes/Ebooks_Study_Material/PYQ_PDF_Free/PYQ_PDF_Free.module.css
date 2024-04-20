@@ -1,0 +1,86 @@
+.pyq_head{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.5rem;
+}
+.pyq_right_sidebar{
+    background-color: #e2e2e2;
+}
+.pyq_card_item{
+    list-style: none;
+}
+.pyq_card_item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+}
+.pyq_card{
+    background-color: #e2e2e2;
+    color: black;
+    padding: 5px 5px 5px 8px;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+.right_side_cards{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+.right_side_cards h3{
+    font-size: 1rem;
+    padding: 0 0 0 5px;
+    font-weight: lighter;
+    margin: 0px 0px 5px 0px;
+    cursor: pointer;
+}
+.right_side_cards h3:hover{
+    color: #C7511F;
+    background: #fff;
+    cursor: pointer;
+}
+.li_item{
+    padding: 0px 0px 5px 5px;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.li_item p:hover{
+    color: #C7511F;
+    background: #fff;
+    cursor: pointer;
+}
+.right_side_cardItem{
+    list-style: none;
+}
+
+
+
+/* ----------- pyq layout css --------------  */
+.pyq_head_btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main_ssc{
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 5px;
+    list-style: none;
+    margin-top: 10px;
+    border: 1px solid #C7511F;
+    background: #3578E5;
+    color: #fff;
+    text-align: center;
+}
+.main_rrb{
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 5px;
+    list-style: none;
+    margin-top: 10px;
+    border: 1px solid #C7511F;
+    background: #C7511F;
+    color: #fff;
+    text-align: center;
+}
+.link_tag_pyq{
+    text-decoration: none;
+}

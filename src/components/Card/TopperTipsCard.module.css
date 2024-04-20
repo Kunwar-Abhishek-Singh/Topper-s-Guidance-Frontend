@@ -1,0 +1,63 @@
+.toppers_tips_card_boundary{
+    margin-left: 50px;
+}
+
+.upper_card{
+    
+    width: 270px;
+    height: 180px;
+    /* border: 0.1px solid rgb(119, 118, 118); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 0.1px solid rgb(202, 202, 202);
+
+    text-align: center;
+    padding: 10px;
+}
+.upper_card p{
+    margin: -3px 0px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.lower_card{
+    width: 270px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border: 0.1px solid rgb(119, 118, 118); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 0.1px solid rgb(202, 202, 202);
+
+    border-top: none;
+}
+.tips_topic{
+    /* margin-top: -5px; */
+    margin-left: 5px;
+}
+.break{
+    margin-top: -20px;
+}
+.lorem_ipsum_tips{
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.read_more_btn button{
+    /* margin-left: 155px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0px 5px 0px 5px ;
+    
+}
+/* .view_more_btn_tips{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 710px;
+    padding: 4px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+} */
+

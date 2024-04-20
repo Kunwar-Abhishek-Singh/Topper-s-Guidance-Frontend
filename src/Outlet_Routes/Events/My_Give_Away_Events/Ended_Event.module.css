@@ -1,0 +1,63 @@
+
+.ended_event_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+    margin: 0 0 0 10px;
+    background-color: #e2e2e2;
+}
+.ended_img{
+    width: 350px;
+    height: 250px;
+}
+.ended_date{
+    line-height: 2;
+}
+.ended_date p{
+    color: #1877F2;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 8px 0 0 8px;
+}
+.ended_topic p{
+    margin: 8px 0 0 8px;
+}
+.ended_location p{
+    margin: 8px 0 0 8px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #1877F2;
+}
+
+/* ---------------- Event lay out css ---------------  */
+
+.event_heading{
+    margin: 0 0 0 10px;
+    background-color: #F8F8FF;
+    line-height: 2.2;
+    padding: 0 0 0 15px;    
+}
+.event_heading h1{
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 2.8;
+    color: #000;
+}
+.EventLayOut_btn{
+    padding: 10px;
+    margin: 10px;  
+    position: relative;  
+}
+.link_tag_eventI{
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    line-height: 0;
+}
+.link_tag_eventII{
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    margin-left: 120px;
+    line-height: 0;
+}

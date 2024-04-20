@@ -1,0 +1,122 @@
+
+.main_carousel_div{
+    width: 100vw;
+    /* min-width: 1344px;
+    max-width: 1600px; */
+    /* width: 90rem; */
+    margin-top: 5rem;  
+    
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 160px 8fr 2fr 160px;
+    z-index: 1002; 
+}
+
+.text_material{
+    grid-column: 2/3;
+}
+.text_material h1{
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    width: 500px;
+}
+
+.text_material p{
+    font-size: 12px;
+    font-weight: 400;
+    /* margin-top: -15px; */
+    margin-bottom: 2px;
+}
+.btn{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    cursor: pointer;   
+}
+
+.carou_img{
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: -20px;
+    grid-column: 2/3;
+}
+
+/* **************** ------- media query css ------------ ********* */
+
+@media (min-width:1024px){
+    
+    /* .item{
+        display: grid;
+        grid-template-columns: 160px 5fr 3fr 160px;
+        z-index: 1002; 
+    } */
+    /* .text_material h1{
+        font-size: 2.4rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        color: aqua;
+        width: fit-content;
+    } */
+    /* .carou_img{
+        width: 400px;
+        height: auto;
+        margin-left: 0px;
+        margin-top: -20px;
+        grid-column: 2/3;
+    } */
+}
+@media (min-width:1400px){
+    .main_carousel_div
+    .carousel_module_top
+    .item
+    .text_material
+    .btn
+    .carou_img
+    {
+        width: 1400px;
+    }
+}
+@media (max-width: 1024px) {
+    .main_carousel_div
+    .carousel_module_top
+    .item
+    .text_material
+    .btn
+    .carou_img{
+    width: 1024px;
+    width: 85em;
+    margin-top: 5rem;  
+    
+}
+    .item{
+        display: grid;
+        grid-template-columns: 160px 5fr 1fr 160px;
+        z-index: 1002; 
+    }
+    .text_material h1{
+        font-size: 2.4rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        width: fit-content;
+    }
+    .text_material p{
+        font-size: 30px;
+    }
+    .text_material button{
+        font-size: 25px;
+    }
+    .carou_img{
+        width: 300px;
+        height: auto;
+        margin-left: 0px;
+        margin-top: -20px;
+        grid-column: 2/3;
+    }
+}
+

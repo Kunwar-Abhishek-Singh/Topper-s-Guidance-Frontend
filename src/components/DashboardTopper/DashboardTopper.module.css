@@ -1,0 +1,85 @@
+.heading_abc {
+    width: 100%;
+    min-width: 84rem;
+  }
+  .full_card{
+    padding: 0px 0px 10px;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+  .heading_title {
+    height: 280px;
+    color: #212529;
+    margin-top: 20px;
+  }
+  .topper_heading h1 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+    margin-left: 17px;
+    margin-top: 10px;
+  }
+  .topper_taxt {
+    text-align: center;
+  }
+  .topper_cards {
+    width: 17.5rem;
+    height: 16rem;
+    cursor: pointer;
+  }
+  .topper_image {
+    width: 190px;
+    height: 150px;
+    display: flex;
+    margin: 8px 0px 0px 65px;
+  }
+  .topper_image:hover {
+    width: 195px;
+    height: 152px;
+    cursor: pointer;
+  }
+  .topper_cards h2 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+    padding: 3px;
+  }
+  .rank {
+    font-size: 14px;
+    color: rgb(35, 87, 42);
+    text-align: center;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+  }
+  .product_cards p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+    text-align: center;
+    padding: 3px;
+  }
+  
+  /* button section ---------  */
+  
+  .follow_btn {
+    padding: 6px;
+  }
+  .follow_btn button {
+    height: 26px;
+    width: 110px;
+    background-color: rgb(17, 47, 216);
+    opacity: 64%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .react-multiple-carousel__arrow {
+    z-index: 0;
+  }
+  .react-multi-carousel-track {
+    display: flex;
+  }
+  

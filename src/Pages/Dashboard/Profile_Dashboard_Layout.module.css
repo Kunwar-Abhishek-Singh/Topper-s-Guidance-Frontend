@@ -1,0 +1,23 @@
+.dashboard_page_layout{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 4.3rem ;
+}
+.dashboard_home_page_topper{
+    display: grid;
+    grid-template-columns: 15rem 69.2rem;
+    /* grid-template-columns: 2fr 9fr; */
+    
+}
+.navbar_section_layout{
+    grid-column: 1/2;
+    
+}
+.outlet_section{
+    grid-column: 2/3;
+}
+
+.outlet_section{
+    margin-left: 0.7rem;
+    /* margin-top: 1rem;     */
+}

@@ -1,0 +1,52 @@
+
+.card_followers>h1{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+.top_cards{
+    margin-left: 200px;
+    /* width: 80vh; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    
+}
+
+.follower_cards{
+    width: fit-content;
+    height: fit-content;
+    border-style: ridge;
+    background-color: #fff;
+    /* margin: 0px 0 0 23px; */
+    padding: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.cards_heading{
+    display: flex;
+    
+}
+.cards_heading>h4{
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 5px;
+    
+    /* margin: -34px 0 0px 56px; */
+}
+.follower_cards>p{
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #000;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 270px;
+    /* padding: 8px; */
+}

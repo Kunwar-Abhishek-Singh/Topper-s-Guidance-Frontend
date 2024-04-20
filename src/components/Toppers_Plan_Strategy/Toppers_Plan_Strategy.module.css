@@ -1,0 +1,44 @@
+.strategy_card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    width: 55rem;
+    /* height: 90vh; */
+    margin-left: 30px;
+    border-radius: 40px;
+    background-color: #E4E4E4;
+    margin-bottom: 25px;
+    padding-bottom: 200px;
+}
+.plan_strategy_heading{
+    text-align: center;
+    padding-top: 20px;
+}
+.multiple_toppers_advices{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+
+.toppers_advice{
+    width: 350px;
+    height: 100px;
+    /* border: 1px solid black; */
+    margin: 30px 30px;
+    
+}
+.toppers_advice h3{
+    font-size: 14px;
+    font-weight: 100;
+    /* margin-bottom: -10px; */
+    /* margin-top: 200px; */
+}
+.toppers_advice p{
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.name{
+    font-weight: 100;
+    margin-left: 15px;
+}

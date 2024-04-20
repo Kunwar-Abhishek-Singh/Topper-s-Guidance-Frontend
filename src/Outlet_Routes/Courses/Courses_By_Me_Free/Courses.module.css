@@ -1,0 +1,144 @@
+.course_title {
+    padding: 0.2rem;
+  }
+  .course_title h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    word-spacing: 0.02rem;
+    padding: 0.2rem 0.8rem;
+  }
+  .head_course {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 0.2rem 0.8rem;
+  }
+  .main_cards {
+    grid-column: 1/2;
+  }
+
+/* ------------------ right_side ----------------  */
+
+  .side_cards_courses {
+    grid-column: 2/3;
+    background-color: #e2e2e2;
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.8rem;
+    cursor: pointer;
+    list-style: none;
+  }
+  .side_cards h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .side_cards_items li p:hover{
+    color: #C7511F;
+    background: #fff;
+    cursor: pointer;
+  }
+  .course_cards {
+    background-color: #f0f8ff;
+    height: 14rem;
+    cursor: pointer;
+  }  
+  .course_images {
+    height: 8rem;
+    width: 20.6rem;
+  }
+  .courseHeading {
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 0.3rem;
+  }
+  .batch {
+    font-size: 0.7rem;
+    font-weight: 400;
+    float: right;
+    display: flex;
+    position: relative;
+    top: -1.4rem;
+    padding: 0.2rem;
+  }
+  .teacherName {
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 0.3rem;
+  }
+  .liveBatch {
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: -1.2rem 8rem 1rem;
+  }
+  .side_cards_items {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-variant: petite-caps;
+  }  
+  .main_cards_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .side_cards_items p {
+    color: #000;
+  }  
+  .side_cards1 {
+    background-color: rgb(38, 59, 77);
+    color: #fff;
+    margin-top: 0.3rem;
+    height: 11rem;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  .card_h2 h2 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0.4rem 0rem;
+    color: papayawhip;
+  }
+  .card_tar h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    top: -0.9rem;
+    letter-spacing: 0.06rem;
+    color: papayawhip;
+  }
+  .card_notice p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    padding: 0rem 0.3rem;
+    color: papayawhip;
+  }
+  .card_vac p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: end;
+    position: relative;
+    bottom: 1rem;
+    padding: 0 0.3rem;
+    color: papayawhip;
+  }
+  .card_bat h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    position: relative;
+    top: -0.5rem;
+    color: yellow;
+  }
+  .card_bat p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    position: relative;
+    top: -0.4rem;
+    color: bisque;
+  }
+  .card_evr p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: papayawhip;
+  }
+  

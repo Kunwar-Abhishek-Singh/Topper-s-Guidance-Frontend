@@ -1,0 +1,140 @@
+.login_credentials{
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr 5rem; 
+    z-index: -1; 
+    margin-top: 50px;
+}
+.login_vector_img{
+    grid-column: 2/3;
+}
+.login_vector_icon{
+    width: 33rem;
+}
+/* .loader_login_main_div{
+    position: relative;
+} */
+/* .moonload_login_part{
+    opacity: 0%;
+    z-index: -1;
+    position: absolute;
+    top: -20px;
+} */
+
+/* .MoonLoader{
+    border-color: red;
+    position: absolute;
+    z-index: 20;
+    background-color: none;
+} */
+.LOGIN_verification_main_div{
+    margin-left: 50rem;
+    width: 30vw;
+    height: 12rem;
+    background-color:white;
+    z-index: 1;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 150px 50px;
+    padding: 10px;
+    
+    
+}
+.LOGIN_verification_main_div h3{
+    color: blue;
+    font-weight:lighter;
+}
+
+.userid_pwd_section{
+    margin: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.username_password_tag{
+    /* border: 0.1px solid black; */
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+.userId_pwd_div{
+border: 0.1px solid rgb(161, 159, 159) ;
+width: fit-content;
+height: 40px;
+padding: 5px;
+
+}
+.login_btn_div{
+    /* width: 260px; */
+    display: flex;
+    gap: 50px;
+}
+.login_btn_div p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.login_btn{
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+    float: right;
+    cursor: pointer;
+}
+.want_to_register_div{
+    margin-top: 100px;
+    /* border: 0.1px solid rgb(161, 159, 159) ; */
+    box-shadow: 3px 3px 2px #888888;
+    width: 300px;
+    margin-left: 2.5rem;
+
+}
+.want_to_register_div p{
+    text-align: center;
+    color: black;
+}
+.want_to_register_div p:hover{
+    cursor: pointer;
+    color: blue;
+}
+.MoonLoader{
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.after_login_handler_active_div{
+    opacity: 30%;
+}
+.invalid_cred_div{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 5;
+}
+.invalid_cred_popup{
+    position: fixed;
+    
+    top: 15rem;
+    left: 30rem;
+    width: 25rem;
+    height: 10rem;
+    background-color: white;
+    color: black;
+}
+.invalid_cred_popup .invalid_cred_h2, .invalid_cred_p{
+    margin-left: 2.5rem;
+    margin-top: 0.8rem;
+}
+.invalid_cred_popup button:first-child{
+    margin-left: 23.5rem ;
+}
+.invalid_cred_ok_btn{
+    margin-left: 19rem;
+    padding: 3px 10px 3px 10px;
+    margin-top: 15px;
+}

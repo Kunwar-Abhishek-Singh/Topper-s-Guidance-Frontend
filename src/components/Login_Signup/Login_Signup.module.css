@@ -1,0 +1,132 @@
+.login_vector_icon{
+    width: 33rem;
+}
+.login_vector_img{
+    grid-column: 2/3;
+}
+/* @media screen and (max-width: 992px) {
+    .login_vector_icon {
+      width: 30vw;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .login_vector_icon {
+      width: 70vw;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    
+    .login_vector_icon {
+        width: 70vw;
+      }
+  }
+  @media screen and (max-width: 400px) {
+    
+    .login_vector_icon {
+        width: 100vw;
+        margin-top: 5rem;
+      }
+  } */
+.registration_credentials{
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr 5rem;
+    z-index: -1;
+    margin-top: 50px;
+}
+.loader_effect_form{
+    opacity: 40%;
+    
+}
+.MoonLoader{
+    border-color: red;
+    margin-top: 50px;
+    margin-left: 80px;
+    position: absolute;
+    background-color: none;
+    /* display: block; */
+}
+
+.registration_heading>h2{
+    font-size: 18px;
+    font-weight: 100;
+    color: blue;
+    margin-left: 30px;
+}
+.registration_form{
+    margin: 6.3rem 1.2rem;
+    /* grid-column: 3/4; */
+    width: fit-content;
+}
+.resgister_input_form{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.mobile_number_enter_section{
+    display: flex;
+}
+.india_code_input_tag{
+    width: 40px;
+    outline: none;
+    padding: 5px;
+    border: 0.1px solid rgb(163, 157, 157);
+
+
+}
+.register_input_sections_mobile{
+    /* width: 100px; */
+    padding: 5px;
+    padding-right: 60px;
+    border: 0.1px solid rgb(163, 157, 157);
+    outline: none;
+}
+.register_input_sections{
+    padding: 5px;
+    padding-right: 100px;
+    border: 0.1px solid rgb(163, 157, 157);
+
+}
+.create_acc_btn{
+    margin-top: 20px;
+}
+.create_acc_btn>button{
+    padding: 5px;
+    margin-left: 12.5rem;
+}
+.error_msg_mandatory_fields{
+    margin-left: 50px;
+    margin-top: -1px;
+    font-size: 11px;
+    color: red;
+}
+
+.already_regd_div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 5;
+}
+.already_regd_popup{
+    position: fixed;
+    
+    top: 15rem;
+    left: 30rem;
+    width: 25rem;
+    height: 10rem;
+    background-color: white;
+    color: black;
+}
+.already_regd_popup .already_regd_h2, .already_regd_p{
+    margin-left: 2.5rem;
+    margin-top: 0.8rem;
+}
+.already_regd_popup button:first-child{
+    margin-left: 23.5rem ;
+}
+.already_regd_ok_btn{
+    margin-left: 19rem;
+    padding: 3px 10px 3px 10px;
+    margin-top: 15px;
+}

@@ -1,0 +1,143 @@
+.notes_head{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.5rem;
+}
+.notes_heading{
+    background: whitesmoke;
+    color: #000;
+}
+.notes_heading h1{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.2rem 0 0.6rem 2.8rem;
+}
+.notes_main_card{
+    list-style: none;
+}
+
+/* ------- my notes data css --------------  */
+
+.notes_full_cards{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 0 0.6rem 0;
+}
+
+.notes_img{
+    background: #fff;
+}
+.notes_img img{
+    height: 14.3rem;
+    width: 15.6rem;
+}
+.notes_page_right_side{
+    background: whitesmoke;
+    padding: 0.6rem;
+}
+.notes_page_right_side h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem; 
+    cursor: pointer;  
+    color: #000; 
+}
+.notes_page_right_side h2:hover{
+    color: #C7511F;
+    background: #fff;
+}
+.format_title{
+    color: #007185;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+}
+.format_title:hover{
+    color: #C7511F;
+}
+.author_title{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #0F1111;
+}
+.ages_title{
+    float: right;
+    margin: -1.5rem 0.5rem 0 0;
+}
+.ages_title p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: #0F1111;
+}
+.notes_page_right_side button{
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: orangered;
+    color: #fff;
+    border: none;
+    padding: 0 0 0 0;
+    line-height: 1.3rem;
+}
+.rating_title p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: #000;
+}
+.deal_btn button{
+    background-color: #C7511F;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+}
+.price_title p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: #000;
+}
+.discount_title p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: #000;
+}
+.delivery_title p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: #000;
+}
+
+/* --------------- notes_right_sidebar css ----------  */
+
+.notes_right_sidebar{
+    background: whitesmoke;
+}
+.right_side_cards h3{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    padding: 0.4rem 0 0 0.4rem;
+}
+.right_side_cardItem{
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 0.6rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: #0F1111;
+    
+}
+.right_side_cardItem li{
+    cursor: pointer;    
+}
+.right_side_cardItem li :hover{
+    background: #fff;
+    color: #C7511F;
+}

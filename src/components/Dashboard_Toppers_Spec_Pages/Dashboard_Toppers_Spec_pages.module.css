@@ -1,0 +1,166 @@
+.dash_spec_page_main_Cards{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background: #fff;
+    gap: 0.1rem;
+}
+.dash_spec_page_card_item{
+    list-style: none;
+}
+.spec_page_header{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+.spec_page_header h1{
+    line-height: 28px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_video{
+    position: relative;
+    text-align: center;
+}
+.video_image{
+    height: 334px;
+    width: 510px;
+    text-align: center;
+}
+.spec_page_sub_title{
+    line-height: 28px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_sub_title p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.spec_page_date{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_date p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.spec_page_p1{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_p1 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.spec_page_p2{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_p2 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.spec_page_p3{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_p3 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.spec_page_img1{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_content_bio1{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_content_bio1 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.spec_page_content_bio2{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_content_bio2 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.spec_page_content_bio3{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_content_bio3 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.spec_page_p4{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_img2{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_journey1{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_journey1 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.spec_page_journey2{
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px 2px 4px 4px;
+}
+.spec_page_journey2 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+/* ----------------------- right site bar css ----------------  */
+
+.dash_spec_page_right_side_cards{
+    line-height: 25px;
+    margin-top: 15px;
+    position: fixed;
+}
+.dash_spec_page_right_side_cards h3{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'open Sans';
+    cursor: pointer;
+}
+.dash_spec_page_right_side_card_item{
+    list-style: none;
+    margin: 4px 0 0 8px;
+    position: fixed;
+    margin-top: 42px;
+}
+.dash_spec_page_right_side_card_item p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'open sans';
+    cursor: pointer;
+}
+.dash_spec_page_right_side_card_item p:hover{
+    background-color: #fff;
+    color: darkorange;
+}

@@ -1,0 +1,48 @@
+.navbar{
+    /* top: 11vh; */
+    position: fixed;
+   
+    
+}
+.Link_tag_react_router{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.active, .Link_tag_react_router:hover{
+    color: blue;
+    font-size: 15px;
+    transition: 300ms;
+}
+.Link_tag_react_router.active{
+    color: blue;
+    background-color: rgb(255, 243, 243);
+}
+.Link_tag_react_router.active{
+    color: blue;
+}
+.sidebar_menu{
+    /* max-height: calc(100vh - 1rem); */
+    /* height: 34.5rem; */
+    /* min-height: auto; */
+    /* max-height: 100rem; */
+    height: 89vh;
+    min-height: 28rem;
+    /* max-height: 34.5rem; */
+    overflow-y: auto;
+
+}
+.icon_img{
+    width: 25px;
+}
+.free_tag{
+    color: red;
+    font-size: 13px;
+    
+
+}
+.paid_tag{
+    color: red;
+    font-size: 13px;
+    
+}

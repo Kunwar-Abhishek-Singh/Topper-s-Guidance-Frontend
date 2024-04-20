@@ -1,0 +1,28 @@
+.quotes{
+    margin-top: 4.4rem;
+    position: relative;
+    display: block;
+    height: 150px;
+    background-color: #000;
+    border: 1px solid rgb(190, 107, 107);
+    width: 100%;
+    min-width: 84rem;
+    /* max-width: 90rem; */
+}
+.quotes>h1{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    margin: 50px; 
+    margin-left: 150px; 
+    font-weight: lighter;  
+}
+.quotes>h2{
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    right: 600px;
+    margin: -45px 0px 0px 0px;
+    font-weight: lighter;
+}

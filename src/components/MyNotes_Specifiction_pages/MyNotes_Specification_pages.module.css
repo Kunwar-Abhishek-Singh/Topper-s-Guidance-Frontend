@@ -1,0 +1,446 @@
+.my_notes_next_heading{
+    background: #fff;
+    color: black;
+    padding: 1rem 0 1rem 1.5rem;
+}
+.my_notes_next_head{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.5rem;
+}
+.my_notes_next_heading h1{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.2rem 0 0 0.8rem;
+}
+.my_notes_next_main_card_item{
+    list-style: none;
+}
+.my_notes_next_full_card{
+    padding: 0 0 0 1.2rem;
+    background: #fff;
+}
+.my_notes_next_heading_title{
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: contents;
+    color: #212121;
+}
+.my_notes_next_full_card span{
+    line-height: 1.6;
+    font-size: inherit;
+    display: inline-block;
+    color: #212121;
+}
+.my_notes_next_rating_card{
+    line-height: 2.6;
+}
+.my_notes_next_rating_btn{
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 4px 8px 4px 12px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    background-color: #388e3c;
+    border: none;
+    cursor: pointer;
+}
+.my_notes_next_price_card h3{
+    font-size: 1.7rem;
+    vertical-align: sub;
+    line-height: 3rem;
+}
+.my_notes_next_offer_card p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 2.5rem;
+}
+.my_notes_next_bank_offerI{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 1.5rem;
+}
+.my_notes_next_bank_offerII{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 2.5rem;
+}
+.my_notes_next_partnerOffer_card p{
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+.partner_a p{
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+.abcd{
+    padding: 0 0 0 10px;
+}
+
+.my_notes_next_delivery_full_card{
+    height: 120px;
+    margin-top: 1rem;
+}
+.my_notes_next_delivery_a p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    position: relative;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_delivery_a p::after{
+    content: "";
+    height: 2px;
+    width: 200px;
+    background: #212121;
+    position: absolute;
+    top: 30px;
+    right: 330px;
+}
+.location_icon{
+    color: #2874f0;
+    position: relative;
+    top: -0px;
+    cursor: pointer;
+    left: 115px;
+}
+.my_notes_next_check_a{
+    position: relative;
+    left: 40px;
+    top: -6px;
+    color: #2874f0;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.my_notes_next_delivery_date p{
+    position: relative;
+    font-size: 0.8rem;
+    left: 190px;
+    line-height: 1.5rem;
+}
+.my_notes_next_view_btn p{
+    font-size: 0.8rem;
+    left: 190px;
+    position: relative;
+    color: #2874f0;
+    cursor: pointer;
+}
+.my_notes_page_author_downpage p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_page_author_downpage span{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #2874f0;
+    left: 120px;
+    position: relative;
+    cursor: pointer;
+}
+.my_notes_next_highlight{
+    position: relative;
+    left: 185px;
+    bottom: 64px;
+}
+.my_notes_next_high_light p{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 4rem;
+    color: #212121;
+}
+.my_notes_next_service_a{
+    position: relative;
+    float: right;
+    right: 250px;
+    bottom: 105px;
+}
+.my_notes_next_service_a p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_cash_delivery{
+    position: relative;
+    float: right;
+    bottom: 105px;
+    left: 25px;
+}
+.my_notes_next_cash_delivery p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_cash_delivery span{
+    color: #2874f0;
+}
+.my_notes_next_number_a{
+    left: 185px;
+    position: relative;
+    bottom: 75px;
+    line-height: 26px;
+}
+.my_notes_next_number_a li{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_language_a{
+    position: relative;
+    left: 185px;
+    bottom: 75px;
+    line-height: 26px;
+}
+.my_notes_next_language_a li{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_publisher_a{
+    position: relative;
+    left: 185px;
+    bottom: 75px;
+    line-height: 26px;
+}
+.my_notes_next_publisher_a li{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_seller_xyz{
+    height: 100px;
+    line-height: 70px;
+}
+.my_notes_next_seller_a p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_seller_abc{
+    position: relative;
+    left: 170px;
+    bottom: 73px;
+}
+.my_notes_next_seller_abc p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_replacement_xyz{
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+}
+.my_notes_next_replacement_xyz li{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #2874f0;
+    cursor: pointer;
+}
+.my_notes_next_description_main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.my_notes_next_description_left p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_next_description_right p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+    text-align: justify;
+}
+.my_notes_specifications_div{
+    margin: 10px 0 10px 0;
+}
+.my_notes_next_specifications_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px 16px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.41;
+    color: #fb641b;
+    background-color: #e2e2e2;
+}
+.my_notes_spec_book_main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.my_notes_book_spec_left p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+    text-align: justify;
+}
+.my_notes_book_spec_right p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+}
+.my_notes_author_spec{
+    position: relative;
+}
+.my_notes_author_spec p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #212121;
+    line-height: 75px;
+}
+.my_notes_span_auth{
+    position: relative;
+    left: 90px;
+}
+.my_notes_binding_spec{
+    position: relative;
+}
+.my_notes_binding_spec p{
+    line-height: 75px;
+    font-size: 14px;
+    color: #212121;
+}
+.my_notes_binding_span{
+    position: relative;
+    left: 90px;
+    font-size: 14px;
+    color: #212121;
+}
+.publishing_date_spec{
+    position: relative;
+}
+.publishing_date_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+}
+.publishing_date_span {
+    position: absolute;
+    font-size: 14px;
+    left: 150px;
+    color: #212121;
+    top: 27px;
+}
+.my_notes_next_publishser_spec{
+    position: relative;
+}
+.my_notes_next_publishser_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+}
+.my_notes_next_publisher_span{
+    position: absolute;
+    font-size: 14px;
+    left: 150px;
+    top: 27px;
+    color: #212121;
+}
+.my_notes_next_exam_spec{
+    position: relative;
+}
+.my_notes_next_exam_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+}
+.my_notes_next_exam_spec_span{
+    position: absolute;
+    font-size: 14px;
+    left: 150px;
+    color: #212121;
+    top: 27px;
+}
+.my_notes_number_of_page_spec{
+    position: relative;
+}
+.my_notes_number_of_page_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+}
+.my_notes_number_of_page_spec span{
+    position: absolute;
+    font-size: 14px;
+    left: 150px;
+    color: #212121;
+    top: 27px;
+}
+.my_notes_language_spec{
+    position: relative;
+}
+.my_notes_language_spec p{
+    font-size: 14px;
+    line-height: 75px;
+    color: #212121;
+}
+.my_notes_language_spec span{
+    position: absolute;
+    font-size: 14px;
+    left: 150px;
+    color: #212121;
+    top: 27px;
+}
+
+/* -------------- Right side bar css ----------  */
+
+.side_cards_item{
+    list-style: none;
+}
+.curser_effect div div:last-child { 
+    left: -150% !important;
+    width: 135% !important;
+    height: 100% !important;    
+}
+.curser_effect div div:nth-last-child(2) div:last-child {
+    background-color: transparent !important;
+}
+.curser_effect{
+    width: 350px;
+    height: 350px;
+}
+
+/* ------------- buy and add to card button ---------  */
+
+.buy_add_btn_main_div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.add_to_card_btn1{
+    position: relative;
+    top: 170px;
+    margin: 0px 0 0 16px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background: #fb641b;
+    color: #fff;
+    border: none;   
+}
+.buy_btn_div{
+    position: relative;
+    top: 170px;
+    margin: 0px 0 0 16px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background: #fbec1b;
+    color: #fff;
+    border: none;  
+}
+.input_pincode{
+    margin-left: 8rem;
+    /* margin-bottom: 5rem; */
+    border: none;
+    outline: none;
+}

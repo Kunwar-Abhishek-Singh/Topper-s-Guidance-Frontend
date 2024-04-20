@@ -1,0 +1,59 @@
+
+
+.follow_me_heading{
+    text-align: center;
+    margin: 20px;
+}
+
+.FaYoutube_icon{
+    color: red;
+}
+.youtube_insta_div_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    gap: 20rem;
+}
+.FaInstagram_icon{
+    color: red
+}
+.follow_me_youtube_instagram{
+    margin: 1rem;
+    padding: 20px;
+    /* border: 1px solid black; */
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 2rem;
+    /* text-align: center; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.follow_me_youtube_instagram:last-child{
+    margin-left: -5rem;
+}
+.follow_me_media_name{
+    /* margin-top: -1rem; */
+    margin-left: 1.5rem;
+}
+.follow_me_youtube_instagram button{
+    padding: 7px 15px 7px 15px;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+    
+}
+.follow_me_youtube_instagram button:hover{
+    background-color: red;
+    color: white;
+}
+.subscribe_btn{
+    margin-left: 10rem;
+}
+.follow_btn{
+    margin-left: 10rem;
+}
+
+.follow_me_youtube_instagram :last-child{
+    grid-column: 2/3;
+}

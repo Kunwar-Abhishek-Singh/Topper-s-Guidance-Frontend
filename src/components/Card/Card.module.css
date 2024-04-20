@@ -1,0 +1,174 @@
+.cards_collection_module{
+    /* display: flex;   */
+    margin-left: 80px;
+    /* background: #e2e2e2; */
+    
+}
+.card{
+    width: 15rem;
+    height: 20rem;
+    background: white;
+    padding: 10px;
+    display: flex;
+    box-shadow: 4px 4px 2px #cecccc;
+    border: 1px Solid rgb(223, 223, 223);
+    border-bottom: none;
+    border-right: none;
+}
+.card_content_and_social_media_handles{
+    /* display: flex; */
+    
+}
+.card_img_div{
+    height: 6.8rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 0.5rem;
+    align-items: center;
+}
+
+
+.dp{
+    margin-top: 0.2rem;
+    background-color:black;
+    border-radius: 50%;
+    color: white;
+    
+}
+.details_section_div{
+    margin-top: 10px;
+}
+
+.details{
+    text-align: left;
+    margin-left: 0.4rem;
+}
+.details h1{
+    font-size: 1rem;
+    /* font-weight: 500; */
+    letter-spacing: 0.04rem;
+}
+.details p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+}
+.details_air p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    text-align: center;
+}
+.fb_details{
+    text-align: start;
+    margin-left: 2px;    
+}
+.social_media_handles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 0 0 0;
+    margin-top: -300px;
+    margin-left: 12rem;
+}
+.facebook_icon{
+    color: #2260d3;
+    cursor: pointer;
+}
+.insta_icon{
+    color: rgb(182, 21, 48);
+    cursor: pointer;
+}
+.youtube_icon{
+    color: red;
+    cursor: pointer;
+}
+.twitter_icon{
+    color: rgb(48, 161, 206);
+    cursor: pointer;
+}
+.open_follow_button{
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.open_follow_button button {
+    /* background-color: #4071F4; */
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 8px 14px;
+    font-size: 12.5px;
+    /* border-radius: 20px; */
+    /* border: none; */
+    cursor: pointer;
+}
+/* .open_btn{
+    background: #3578E5;
+    height: 22px;
+    width: 75px;
+}
+.follow_btn{
+    background: #3578E5;
+    height: 22px;
+    width: 75px;
+} */
+.likes_followers_section_div{
+    display: flex;
+    justify-content: left;
+    margin-left: 1rem;
+    align-items: center;
+    gap: 30px;
+    margin-top: 12px;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+/* .likes_followers_section_div::before{
+    content: "";
+    display: block;
+    width: 275px;
+    height: 1px;
+    background: #e2e2e2;
+    position: absolute;
+    bottom: 26px;
+}
+.likes_followers_section_div::after{
+    content: "";
+    display: block;
+    width: 275px;
+    height: 1px;
+    background: #e2e2e2;
+    position: absolute;
+    top: 26px;
+} */
+.likes_section_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.followers_section_div{
+    display: flex;
+    justify-content: cneter;
+    align-items: cneter;
+    gap: 5px;
+}
+.likes_section_div p{
+    font-size: 13px;
+}
+.followers_section_div p{
+    font-size: 13px;
+}
+.likes_icon{
+    color: blue;
+}
+.followers_icon{
+    color: blue;
+}

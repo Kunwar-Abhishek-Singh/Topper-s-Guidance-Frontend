@@ -1,0 +1,226 @@
+.Top_Header {
+  display: grid;
+  grid-template-columns:2rem 2fr 2fr 2fr 2fr 3fr 2rem;
+  /* grid-template-columns: repeat(8, 1fr); */
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 4.1rem;
+  position: fixed;
+  top: 0;
+  z-index: 1001;
+  /* cursor: pointer; */
+  /* height: 4.4rem; */
+  /* max-width: 100rem; */
+  /* min-width: 84rem;  */
+}
+.Top_logo {
+  display: grid;
+  grid-column: 2/3;
+  height: 4.1rem;
+  justify-content: start;
+  align-items: center;
+  width: max-content;
+  cursor: pointer;
+}
+.Top_logo img {
+  height: 2rem;
+  width: 9rem;
+  padding: 0.3rem 0 0 1rem;
+}
+.topper_name_in_header {
+  margin-left: 20px;
+  font-size: 15px;
+}
+.header_text {
+  position: relative;
+  top: 40px;
+}
+.home_text {
+  padding: 1rem 0 0 0;
+}
+.home_text h2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.categories_text {
+  padding: 1rem 0 0 0.5rem;
+}
+.categories_text h2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.search_bar_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search_img_header {
+  position: relative;
+  left: 27px;
+  padding-top: 6px;
+}
+.search_img_header img {
+  height: 1rem;
+  cursor: pointer;
+}
+.top_input_bar input {
+  border: 1px solid #1c1d1f;
+}
+.input_bar_logged_in_header {
+  width: 28rem;
+  padding: 6px 6px 6px 36px;
+  border-radius: 20px;
+  background-color: #f7f9fa;
+}
+
+/* ------------ mobile app download css header ----  */
+.download_mobileApp {
+  margin-left: 3px;
+}
+
+.mobileApp_text {
+  margin: -1.2rem 0 0 0.2rem;
+}
+.mobileApp_text h2 {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.playstore_icon {
+  margin: 0.7rem 0 0 2.2rem;
+  padding: 0.4rem;
+}
+
+/* -------- dashboard header sign-up & log in css -----------------  */
+.log_in button {
+  height: 24px;
+  width: 60px;
+}
+.sign_up {
+  height: 24px;
+  width: 60px;
+}
+.log_out {
+  height: 24px;
+  width: 60px;
+}
+.sign_up_header {
+  height: 4.1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.menu_link_div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.1rem;
+  gap: 18px;
+}
+
+/* ------******** social media css ******** --------  */
+
+.social_media_div {
+  grid-column: 6/7;
+  height: 4.1rem;
+}
+.social_media_desktop {
+  height: 4.1rem;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.social_media_div .humbueger_menu {
+  display: none;
+}
+
+/* ------ ******** @ media query ********* -------  */
+
+/* @media (max-width: 1080px) {
+  .Top_Header {
+    height: 4rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 2fr 1fr 1rem;
+    background-color: #a9d1e5bf;
+  }
+  .Top_logo,
+  .topper_name_in_header {
+    height: 4rem;
+  }
+} */
+
+/* @media (max-width: 998px) {
+  .Top_Header {
+    height: 4rem;
+    grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1fr 1rem;
+  }
+  .sign_up_header,
+  .header_text,
+  .search_bar_header {
+    display: none;
+  }
+  .Top_logo,
+  .social_media_div {
+    height: 4rem;
+  }
+  .mobile_menu_link {
+    grid-column: 1/4;
+    position: relative;
+    z-index: 99;
+  }
+
+  .mobile_menu_link {
+    background-color: olivedrab;
+    height: 20rem;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .mobile_menu_link .menu_link_div .log_in :first-child {
+    transition-delay: 0.2s;
+  }
+  .mobile_menu_link .menu_link_div .sign_up :first-child {
+    transition-delay: 0.2s;
+  }
+
+  .social_media_div .social_media_desktop {
+    height: 0;
+    display: none;
+  }
+  .social_media_div .humbueger_menu {
+    display: block;
+    font-size: 2.5rem;
+    text-align: right;
+  }
+} */
+
+/* @media (max-width: 798px) {
+  .Top_Header {
+    height: 4rem;
+    grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1fr 1rem;
+  }
+  .social_media_div .humbueger_menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+} */
+
+/* @media (max-width: 520px) {
+  .Top_Header {
+    height: 4rem;
+    grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1fr 1rem;
+  }
+  .social_media_div .humbueger_menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+} */

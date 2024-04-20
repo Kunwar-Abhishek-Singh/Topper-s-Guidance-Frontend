@@ -1,0 +1,116 @@
+.search_toppers_main_div{
+    width: 82.3rem;
+}
+.toppers_search_bar{
+    /* background-color:#587BE4; */
+    width: 50rem;
+    height: 30px;
+    margin-left: 15.5rem;
+    padding: 20px;
+    display: flex;
+    /* border: 0.1px solid rgb(119, 118, 118); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.topper_search{
+    width: 46rem;
+    /* margin-left: .0vw; */
+    
+    padding: 5px;
+    border-left: none;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+.topper_search_input{
+    margin-top: -15px;
+}
+.search_toppers_heading h2{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+.search_img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-right: none;
+    margin-top: -20px;
+    /* padding-bottom: 1px; */
+}
+
+
+.search_result{
+    /* margin-left: 5px; */
+    /* margin-top: 5px; */
+    /* margin-bottom: -10px; */
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+.search_result h3{
+    font-size: 14px;
+    font-weight: 100;
+}
+.srch_result_box{
+    margin-top: 10px;
+    margin-left: 253px;
+    width: 780px;
+    height: 330px;
+    /* border: 0.1px solid rgb(119, 118, 118); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-style: ridge;
+
+    position: relative;
+    overflow-y: auto;
+    background-color: aliceblue;
+
+}
+
+.search_id{
+    /* margin-left: -35px; */
+    /* display: flex; */
+    /* grid-template-rows: repeat(2,1fr); */
+    /* grid-template-columns: repeat(4,200px); */
+    
+
+}
+.view_more_btn button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 45%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+    /* margin-left: 350px; */
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+}
+.view_more_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: blue;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

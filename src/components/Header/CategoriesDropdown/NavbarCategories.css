@@ -1,0 +1,125 @@
+.menus {
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    list-style: none;
+    /* margin: 14px 0 0 0; */
+  }
+  
+  .menu-items {
+    position: relative;
+    font-size: 14px;
+    /* padding: 4px 4px 6px 6px; */
+    font-variant: petite-caps;
+  }
+  
+  .menu-items a {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+  }
+  .menu-items a:hover{
+    background-color: aqua;
+    color: red;
+  }
+  
+  .menu-items button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    font-variant: petite-caps;
+  }
+  .menu-items button:hover{
+    background-color: #f0f5ff;
+    color: #000;
+  }
+  
+  button span {
+    margin-left: 8px;
+  }
+  
+  /* .menu-items > a,
+   .menu-items button {
+    text-align: left;
+    padding: 1rem 0rem;
+    background-color: #fff;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+  }  
+  .menu-items a,
+  .menu-items button:hover {
+    color: #000;
+    background-color: #f0f5ff;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }  
+   */
+  .arrow::after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.28em;
+    vertical-align: 0.09em;
+    border-top: 0.42em solid;
+    border-right: 0.32em solid transparent;
+    border-left: 0.32em solid transparent;
+  }  
+  .dropdown {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    left: 2px;
+    box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+      0 4px 6px -2px rgba(71, 63, 79, 0.16);
+    font-size: 0.875rem;
+    z-index: 9999;
+    width: 10.5rem;
+    /* height: fit-content; */
+    padding: 0.2rem 0;
+    list-style: none;
+    background-color: #e2e2e2;
+    /* border-radius: 0.5rem; */
+    display: none;
+  }
+  .depthLevel-submenu{
+    background-color: #e2e2e2;
+    /* border-radius: 0.5rem; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 168px;
+    margin: 0px 0 0 0px;
+    list-style: none;
+    display: none;
+    box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+      0 4px 6px -2px rgba(71, 63, 79, 0.16);
+    z-index: 9999;   
+  }  
+  .dropdown.show {
+    display: block;
+  }  
+  .dropdown .dropdown-submenu {
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  } 
+
+ .list img {
+    height: 15px;
+  }  
+  .list{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 10rem;
+    height: 20px;
+  } 

@@ -1,0 +1,122 @@
+.heading_abc_Ab{
+    width: 100%;
+    /* border: 1px solid #e2e2e2; */
+}
+.full_card{
+    background: #fff;
+}
+
+/* .Ebook_heading{
+    display: flex;
+    gap: 43rem;
+}
+.Ebook_heading h1:nth-child(2){
+    cursor: pointer;
+}
+.Ebook_heading h1:nth-child(2):hover{
+    color: #587BE4;
+} */
+.heading_title{
+    height: auto;
+    color: #212529;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.heading_main_div{
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+}
+.Ebook_heading h1{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.Ebook_right_side{
+    margin: 10px 0 0 40px;
+}
+.Ebook_right_side h1{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #578BE4;
+}
+/* .ebook_taxt{
+    text-align: center;   
+} */
+.ebook_cards{
+    width: 220px;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.ebook_cards:hover{
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+    /* box-shadow: 0px 5px 10px 0px rgba(160, 168, 168, 0.7);  */
+}
+.ebook_cards_img{
+    border: 1px solid #e2e2e2;
+    max-width: 100%;
+    /* height: 220px; */
+    padding: 10px;
+}
+.ebook_image{
+    width: 142px;         
+    /* height: 180px; */
+    margin-left: 18px;
+    padding: 4px;
+}
+/* .ebook_image:hover{
+    width: 205px;
+    height: 152px;
+    cursor: pointer;
+} */
+/* .ebook_cards h2{
+    font-size: 14px;  
+    color: #212529;   
+    font-weight: lighter;    
+    text-align: start;
+    padding-left: 4px;       
+} */
+/* .medium{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+} */
+/* .price{
+    font-size: 14px;
+    color: rgb(35, 87, 42);
+    text-align: center;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+} */
+.ebook_title_cards{
+    border: 1px solid #e2e2e2;
+}
+.ebook_cards p{
+    font-size: 12px;
+    font-weight: lighter;    
+    color: #212529;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    padding-left: 3px;
+    font-family:'Open Sans';
+}
+.ebook_cards_rating {
+    max-width: 100%;
+    font-size: 13px;
+    padding-left: 4px;
+}
+.ebook_cards_rating p{
+    max-width: 100%;
+    font-size: 13px;
+    background-color: green;
+    color: #fff;
+    width: 50px;
+    height: 20px;
+}
+.ebook_cards_rating span{
+    padding: 6px;
+}

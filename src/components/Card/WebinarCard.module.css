@@ -1,0 +1,102 @@
+.card_boundary{
+    
+    margin-bottom: 20px;
+    /* margin-right: 60px; */
+    margin-left: 50px;
+    padding: 1px 10px 2px 10px;
+    height: 270px;
+    width: 250px;
+    background-color: #001E49;
+    /* justify-content: center; */
+    /* background-image: url("../../../src/images/texture_bg_img1.jpeg"); */
+    
+}
+.heading{
+    font-size: 11px;
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.heading h1{
+    font-weight: 200;
+    color: white;
+    font-size: 25px;
+    
+    
+}
+.date_time_and_user_pic_div{
+    display: flex;
+    gap: 50px;
+
+}
+.faUser_img{
+    color: white;
+}
+.webinar_date_time{
+    display: flex;
+    gap: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.vertical_line{
+    border-left: 1px solid rgb(184, 181, 181);
+    height: 60px;
+}
+.faVideo_img{
+    color: white;
+    
+}
+.faCalendar_img{
+    color: white;
+}
+.faClock_img{
+    color:white;
+}
+.calendar_image p{
+    font-size: 13px;
+    color: white;
+}
+.clock_image p{
+    font-size: 13px;
+    color: white;
+}
+.webinar_fa_user_img{
+    margin-top: 10px;
+    
+}
+.webinar_fa_user_img p{
+    font-size: 11px;
+    color: white;
+}
+
+
+.webinar_content{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -7px;
+    color: white;
+}
+.content_info{
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: -2px;
+    color: white;
+}
+
+.regs_btn{
+    padding: 2px 40px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: #03AAFF;
+    color: white;
+    border: none;    
+}
+.more_webinar{
+    width: 35px;
+}
+.more_button{
+    display: flex;
+    align-items: center;
+}

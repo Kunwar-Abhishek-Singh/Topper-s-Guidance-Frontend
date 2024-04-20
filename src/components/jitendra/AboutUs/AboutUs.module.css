@@ -1,0 +1,131 @@
+.About_me_Total {
+  /* float: left; */
+  width: fit-content;
+  min-width: 84rem;
+  /* max-width: 90rem; */
+  display: grid;
+  grid-template-columns:  3rem 5fr 1fr 3rem ;
+  /* height: 28rem; */
+  
+}
+.About_me_section_div p{
+  font-size: 1rem;
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+  width: 100%;
+}
+
+.About_me_section_div {
+  grid-column: 2/3;
+  /* position: relative;
+  float: left; */
+  /* width: 75%; */
+  /* left: 30px; */
+  /* margin-top: -10px; */
+  /* margin-bottom: -30px; */
+  
+}
+.About_me_section_div h1 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+.About_me_section_div_p {
+  font-weight: lighter;
+  /* font-size: 13px; */
+  color: #000;
+}
+
+
+.profile {
+  
+  /* float: right;
+  position: relative; */
+  /* top: -110px; */
+  /* right: 50px; */
+  /* display: flex; */
+
+  /* flex-direction: column; */
+  /* grid-column: 4/5; */
+  /* margin-left: 35rem; */
+  margin-top: -6.5rem;
+  z-index: 2;
+}
+
+.profile_details {
+  border: 2px solid #fff;
+  /* padding: 10px 0 0 30px; */
+  background-color: #000;
+  height: 300px;
+  width: 250px;
+  color: #fff;
+}
+.img_pro{
+  margin: 30px 0px 0px 70px;
+}
+.pro_item {
+  /* padding: 8px 0 0 20px; */
+  font-size: 14px;
+  /* margin-top: 10px; */
+}
+.pro_item>h2 {
+  /* padding: 0px 0 5px 20px; */
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  /* letter-spacing: 3px; */
+  /* word-spacing: 2px; */
+}
+.verify_icon{
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.pro_item>h4 {
+  padding: 4px 0 0 18px;
+  font-size: 14px;
+  font-weight: lighter;
+  /* margin-bottom: 20px; */
+  /* word-spacing: 1px; */
+  /* letter-spacing: 0.6px; */
+}
+.pro_item>p {
+  font-weight: lighter;
+  /* letter-spacing: 0.8px; */
+  /* word-spacing: 1.6px; */
+  /* padding: 0 0 0 130px; */
+  font-size: 14px;
+  /* margin-top: 20px; */
+  margin-left: 100px;
+}
+.follow_btn {
+  width: 100px;
+  /* margin: 0px 4px 0px 0px; */
+  margin-left: 0px;
+  padding: 6px;
+  font-size: 14px;
+  background-color:#1877f2;
+  color: #fff;
+  cursor: pointer;
+  border-style: ridge;
+}
+
+.Dashboard {
+  width: 130px;
+  margin-left: 20px;
+  padding: 6px;
+  font-size: 14px;
+}
+.follow_btn :hover {
+  background-color:#1877f2;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  height: 46px;
+}
+
+

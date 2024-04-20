@@ -1,0 +1,26 @@
+.toppers_list_section{
+    display: grid;
+    grid-template-columns:  3fr 2fr 1fr 1fr 2fr  ;
+    text-align: center;
+    margin-bottom: -15px;
+    border: 1px solid rgb(228, 228, 228);
+    
+    /* gap: 25px; */
+}
+.toppers_list_details_div{
+    border: 1px solid rgb(228, 228, 228);
+    border-top: none;
+    border-bottom: none;
+    z-index: 0;
+    
+}
+.toppers_list_details_div button{
+    border: none;
+}
+.toppers_list_details_div button:hover{
+    color: white;
+    background-color: rgb(173, 172, 172);
+    cursor: pointer;
+}
+
+
