@@ -5,6 +5,7 @@ import { registration_otp } from '../../API/Apicall';
 import { useNavigate } from "react-router-dom";
 import { useCookies } from 'react-cookie';
 import { jwt_Authenticate } from "../../API/Apicall";
+import login_img from "../../images/login_vector.svg"
 // import FadeLoader from 'react-spinners/FadeLoader';
 // import HashLoader from 'react-spinners/HashLoader';
 // import ScaleLoader from 'react-spinners/ScaleLoader';
@@ -176,7 +177,7 @@ const LoginSignup = () => {
     <>
       <div className={classes.registration_credentials}>
         <div className={classes.login_vector_img}>
-          <img src='./images/login_vector.svg' alt='login_vector_img' className={classes.login_vector_icon}></img>
+          <img src={login_img} alt='login_vector_img' className={classes.login_vector_icon}></img>
         </div>
         <div className={classes.registration_form}>
           <div className={classes.registration_heading}><h2>Sign up / Register yourself :-</h2></div>

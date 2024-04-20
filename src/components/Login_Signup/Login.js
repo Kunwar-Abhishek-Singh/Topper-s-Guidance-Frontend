@@ -6,6 +6,7 @@ import { useCookies } from 'react-cookie';
 import { jwt_Authenticate } from "../../API/Apicall";
 import MoonLoader from 'react-spinners/MoonLoader';
 import { cookie_validation_context } from '../Context_Component/Context'
+import login_img from "../../images/login_vector.svg";
 
 const Login = () => {
     const location = useLocation();
@@ -142,7 +143,7 @@ const Login = () => {
                     <div className={classes.after_login_handler_active_div}>
                         <div className={classes.login_credentials}>
                             <div className={classes.login_vector_img}>
-                                <img src='../images/login_vector.svg' alt='login_vector_img' className={classes.login_vector_icon}></img>
+                                <img src={login_img} alt='login_vector_img' className={classes.login_vector_icon}></img>
                             </div>
                             <div className={classes.LOGIN_verification_main_div}>
                                 <div>
@@ -170,7 +171,7 @@ const Login = () => {
                 :
                 <div className={classes.login_credentials}>
                     <div className={classes.login_vector_img}>
-                        <img src='../images/login_vector.svg' alt='login_vector_img' className={classes.login_vector_icon}></img>
+                        <img src={login_img} alt='login_vector_img' className={classes.login_vector_icon}></img>
                     </div>
                     <div className={classes.LOGIN_verification_main_div}>
                         <div>

@@ -81,7 +81,7 @@ const Header = () => {
     <>
       <nav className={classes.Top_Header}>
         <div className={classes.Top_logo}>
-          <Link to="/">
+          <Link to="/Topper-s-Guidance-Frontend/">
             <img src={logo_icon} alt="logo_img" />
           </Link>
           <div className={classes.topper_name_in_header}>

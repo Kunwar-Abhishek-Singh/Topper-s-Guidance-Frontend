@@ -80,7 +80,7 @@ let payload = {
   passWord: 'Abhi07',
   userName: 'Testing',
   userEmail: '',
-  leaveUrl: 'http://localhost:3002/logged_in_profile_dashboard'
+  leaveUrl: 'https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/'
 
 };
 
@@ -91,7 +91,7 @@ function App() {
     <Context>
       <BrowserRouter scrollRestoration="manual">
         <Routes>
-          <Route path='/' element={<FirstPage />} />
+          <Route path='/Topper-s-Guidance-Frontend/' element={<FirstPage />} />
           {/* <Route path='/signup' element={<Signup_login_page/>}/> */}
           <Route path=':exam_selection' element={<SecondPage />} />
           <Route path='/login' element={<LoginPage />} />
