@@ -1,21 +1,21 @@
 <p align="center">
   <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
-    <img src="assets/topper's guidance 1.png" width="800" height="280" alt="Barcode Scanner">
+    <img src="assets/topper's guidance 1.png" width="900" height="380" alt="Barcode Scanner">
   </a>
 </p>
 <p align="center">
   <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
-    <img src="assets/topper's guidance 2.png" width="800" height="280" alt="Barcode Scanner">
+    <img src="assets/topper's guidance 2.png" width="900" height="380" alt="Barcode Scanner">
   </a>
 </p>
 <p align="center">
   <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
-    <img src="assets/topper's guidance 3.png" width="800" height="280" alt="Barcode Scanner">
+    <img src="assets/topper's guidance 3.png" width="900" height="380" alt="Barcode Scanner">
   </a>
 </p>
 <p align="center">
   <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
-    <img src="assets/topper's guidance 4.png" width="800" height="280" alt="Barcode Scanner">
+    <img src="assets/topper's guidance 4.png" width="900" height="380" alt="Barcode Scanner">
   </a>
 </p>
 
