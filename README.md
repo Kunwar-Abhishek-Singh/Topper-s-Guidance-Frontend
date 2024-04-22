@@ -1,23 +1,70 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
+    <img src="assets/topper's guidance 1.png" width="800" height="280" alt="Barcode Scanner">
+  </a>
+</p>
+<p align="center">
+  <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
+    <img src="assets/topper's guidance 2.png" width="800" height="280" alt="Barcode Scanner">
+  </a>
+</p>
+<p align="center">
+  <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
+    <img src="assets/topper's guidance 3.png" width="800" height="280" alt="Barcode Scanner">
+  </a>
+</p>
+<p align="center">
+  <a href="https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/">
+    <img src="assets/topper's guidance 4.png" width="800" height="280" alt="Barcode Scanner">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center">Topper's Guidance Project</h1>
 
-In the project directory, you can run:
+A Progressive Web Application (PWA) that connects many to many with each other, its a kind of social media handle created for especially topper's to get available and for candidates to get connected with their respective topper's.
+In this Web Application i created so many different and unique functions handled pages, like for study purpose, for videos, for books selling just like a flipkart selling portal with almost its functionality. Even Live chat facility is also available in this.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Live demo]("https://kunwar-abhishek-singh.github.io/Topper-s-Guidance-Frontend/")
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Very Secure and fast Authentication System provided for everyone, with facitly equipped with JSON Web Token (JWT) for cookies 
+  authentication.
+- For every Login Credentials, all passwords got hashed, only end to that user's is known.
+- You can experience a great learning bridge about SSC and Railway especially.
+- Even there is also e-commerce platform like Flipkart for Selling books recommended by Topper's is designed at least tried.
+- Live Chat facility is equipped so that, one can connect directly or indirectly with their respective toppers.
+- And many more functionalities to discover so go to the LIVE page to experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+## Development
+
+### Install dependencies
+
+```sh
+$ npm install
+```
+
+### Start development server
+
+```sh
+$ npm run start -- --open
+```
+
+### Build for production
+
+```sh
+$ npm run build
+```
+
+## License
+
+[The MIT License (MIT)](https://github.com/Kunwar-Abhishek-Singh/Topper-s-Guidance-Frontend/blob/main/LICENSE)
+
+
 
 ### `npm run build`
 
@@ -27,44 +74,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
