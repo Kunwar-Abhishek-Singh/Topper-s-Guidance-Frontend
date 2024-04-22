@@ -62,7 +62,7 @@ $ npm run build
 
 ## License
 
-[The MIT License (MIT)](https://github.com/Kunwar-Abhishek-Singh/Topper-s-Guidance-Frontend/blob/main/LICENSE)
+[The APACHE License 2.0 (Apache)](https://github.com/Kunwar-Abhishek-Singh/Topper-s-Guidance-Frontend/blob/main/LICENSE)
 
 
 
